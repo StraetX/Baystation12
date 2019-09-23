@@ -1,46 +1,18 @@
-# ignore misc BYOND files
-Thumbs.db
-*.log
-*.int
-*.rsc
-*.dmb
-*.lk
-*.backup
-*.before
-data/
-build_log.txt
-use_map
-stopserver
-reboot_called
-atupdate
-__pycache__
 
-# ignore config, but not subdirs
-!config/*/
-config/*
-sql/test_db
-
-# vscode
-.vscode/*
-.history
-
-# swap
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]s[a-v][a-z]
-[._]sw[a-p]
-
-# session
-Session.vim
-
-# temporary
-.netrwhist
-*~
-
-# auto-generated tag files
-tags
-baystation12.code-workspace
-
-# ignore built libs
-lib/*.dll
-lib/*.so
+baystation12.dmb
+baystation12.dyn.rsc
+baystation12.int
+baystation12.rsc
+data/banlist.bdb
+data/job_full.ban
+data/logs/2019/09/23.log
+data/logs/2019/09/23/round-b3n-a2iy/qdel.log
+data/logs/2019/09/23/round-b3n-a4TK/qdel.log
+data/logs/2019/09/23/round-b3n-a6QV/qdel.log
+data/logs/2019/09/23/round-b3n-a8Qn/qdel.log
+data/logs/2019/09/23/round-b3n-a99K/qdel.log
+data/logs/2019/09/23/round-b3n-baz1/qdel.log
+data/logs/2019/09/23/round-b3n-bcAm/qdel.log
+data/memo.sav
+data/player_saves/s/straet/pai.sav
+data/player_saves/s/straet/preferences.sav
