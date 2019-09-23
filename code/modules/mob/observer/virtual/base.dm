@@ -8,7 +8,7 @@ var/list/all_virtual_listeners = list()
 	sight = SEE_SELF
 
 	virtual_mob = null
-
+	no_z_overlay = TRUE
 	var/atom/movable/host
 	var/host_type = /atom/movable
 	var/abilities = VIRTUAL_ABILITY_HEAR|VIRTUAL_ABILITY_SEE
@@ -26,7 +26,7 @@ var/list/all_virtual_listeners = list()
 	all_virtual_listeners += src
 
 	update_icon()
-   
+
 /mob/observer/virtual/Initialize()
 	. = ..()
 	STOP_PROCESSING(SSmobs, src)

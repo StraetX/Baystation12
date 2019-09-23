@@ -60,10 +60,11 @@ What is the naming convention for planes or layers?
 	FLOAT_PLANE = -32767
 */
 
-#define CLICKCATCHER_PLANE -500
+#define CLICKCATCHER_PLANE -100
 
-#define SPACE_PLANE -499
-#define SKYBOX_PLANE SPACE_PLANE + 1
+#define SPACE_PLANE -99
+	#define SPACE_LAYER 1
+#define SKYBOX_PLANE - 98
 
 #define DUST_PLANE SPACE_PLANE + 2
 	#define DEBRIS_LAYER 1
@@ -72,8 +73,10 @@ What is the naming convention for planes or layers?
 //Reserve planes for openspace
 #define OPENSPACE_PLANE_START -462
 #define OPENSPACE_PLANE_END -22
-#define OPENSPACE_PLANE -463
-#define OVER_OPENSPACE_PLANE -22
+#define OVER_OPENSPACE_PLANE -3
+
+#define DEFAULT_PLANE 0
+	#define PLATING_LAYER 1
 
 
 #define BELOW_TURF_PLANE             -22 // objects that are below turfs. Useful for asteroid smoothing or other such magic.

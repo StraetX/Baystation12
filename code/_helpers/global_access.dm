@@ -101,8 +101,6 @@
 			return global.SSnano;
 		if("SSobj")
 			return global.SSobj;
-		if("SSopen_space")
-			return global.SSopen_space;
 		if("SSpersistence")
 			return global.SSpersistence;
 		if("SSplants")
@@ -143,6 +141,8 @@
 			return global.SSvote;
 		if("SSwebhooks")
 			return global.SSwebhooks;
+		if("SSzcopy")
+			return global.SSzcopy;
 		if("SSxenoarch")
 			return global.SSxenoarch;
 		if("Tier1Runes")
@@ -595,6 +595,8 @@
 			return global.meteors_moderate;
 		if("meteors_normal")
 			return global.meteors_normal;
+		if("mimic_defines")
+			return global.mimic_defines;
 		if("meteors_threatening")
 			return global.meteors_threatening;
 		if("mil_branches")
@@ -927,7 +929,7 @@
 			return global.z_levels;
 		if("zone_blocked")
 			return global.zone_blocked;
-		
+
 /proc/writeglobal(which, newval)
 	switch(which)
 		if("ALL_ANTIGENS")
@@ -1030,8 +1032,6 @@
 			global.SSnano=newval;
 		if("SSobj")
 			global.SSobj=newval;
-		if("SSopen_space")
-			global.SSopen_space=newval;
 		if("SSpersistence")
 			global.SSpersistence=newval;
 		if("SSplants")
@@ -1062,6 +1062,8 @@
 			global.SSticker=newval;
 		if("SStimer")
 			global.SStimer=newval;
+		if("SSzcopy")
+			global.SSzcopy=newval;
 		if("SStrade")
 			global.SStrade=newval;
 		if("SSturf")
@@ -1506,6 +1508,8 @@
 			global.merged=newval;
 		if("message_delay")
 			global.message_delay=newval;
+		if("mimic_defines")
+			global.mimic_defines=newval;
 		if("message_servers")
 			global.message_servers=newval;
 		if("meteors_armageddon")
@@ -1856,7 +1860,7 @@
 			global.z_levels=newval;
 		if("zone_blocked")
 			global.zone_blocked=newval;
-		
+
 /var/list/_all_globals=list(
 	"ALL_ANTIGENS",
 	"ANTAG_FREQS",
@@ -1908,7 +1912,6 @@
 	"SSmobs",
 	"SSnano",
 	"SSobj",
-	"SSopen_space",
 	"SSpersistence",
 	"SSplants",
 	"SSprocessing",
@@ -1930,6 +1933,7 @@
 	"SSvote",
 	"SSwebhooks",
 	"SSxenoarch",
+	"SSzcopy",
 	"Tier1Runes",
 	"Tier2Runes",
 	"Tier3Runes",
@@ -2157,6 +2161,7 @@
 	"meteors_normal",
 	"meteors_threatening",
 	"mil_branches",
+	"mimic_defines",
 	"mining_floors",
 	"mining_walls",
 	"minor_air_alarms",
