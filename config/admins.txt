@@ -8,4 +8,6 @@
 # not_a_user - Admin
 Straet - HeadAdmin
 Def0lt - HeadAdmin
+Jedy_of_Good - GameAdmin
+Fenek - Mentor
 
