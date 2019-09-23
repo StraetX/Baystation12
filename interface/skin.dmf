@@ -359,6 +359,12 @@ macro "macro"
 		name = "CTRL+Numpad8"
 		command = "body-toggle-head"
 	elem 
+		name = "CTRL+Add"
+		command = "move-upwards"
+	elem 
+		name = "CTRL+Subtract"
+		command = "move-down"
+	elem 
 		name = "F1"
 		command = "adminhelp"
 	elem 
@@ -394,12 +400,6 @@ macro "macro"
 	elem 
 		name = "F12"
 		command = "F12"
-	elem 
-		name = "CTRL+Add"
-		command = "move-upwards"
-	elem 
-		name = "CTRL+Subtract"
-		command = "move-down"
 
 macro "hotkeymode"
 	elem 
@@ -641,10 +641,8 @@ macro "hotkeymode"
 		command = "move-down"
 	elem 
 		name = "SHIFT"
-		command = "setmovingquickly"
 	elem 
 		name = "SHIFT+UP"
-		command = "setmovingslowly"
 
 macro "borgmacro"
 	elem 
