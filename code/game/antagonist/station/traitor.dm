@@ -5,6 +5,7 @@ GLOBAL_DATUM_INIT(traitors, /datum/antagonist/traitor, new)
 	id = MODE_TRAITOR
 	antaghud_indicator = "hud_traitor"
 	blacklisted_jobs = list(/datum/job/submap)
+<<<<<<< HEAD
 	welcome_text = "<hr><u>Ваша роль подразумевает скрытную или (полу-скрытную) игру.</u> В первую очередь, \
 	вам требуетс&#255; определить, кто вы. Возможны, Вы шпион, наемный убийца \
 	(не рекомендуетс&#255;), амбициозный вор, поставщик оружи&#255;, террорист или даже кто-то иной - главное, \
@@ -20,6 +21,8 @@ GLOBAL_DATUM_INIT(traitors, /datum/antagonist/traitor, new)
 	что это - лишь примеры того, как Вы можете отыгрывать. Не делайте того, что было бы скучно и даже неприт&#255;тно \
 	Вам самим по отношению к экипажу. \
 	<b>Придумайте что-нибудь интересно дл&#255; себ&#255; и других - про&#255;вите фантазию!</b>"
+=======
+>>>>>>> parent of ca21379241... РџРѕРґРіРѕС‚РѕРІРєР° Рє РѕС‚РєР»СЋС‡РµРЅРёСЋ С†РµР»РµР№ Сѓ Р°РЅС‚Р°РіРѕРЅРёСЃС‚РѕРІ.
 	protected_jobs = list(/datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/captain, /datum/job/lawyer, /datum/job/hos)
 	flags = ANTAG_SUSPICIOUS | ANTAG_RANDSPAWN | ANTAG_VOTABLE
 	skill_setter = /datum/antag_skill_setter/station
