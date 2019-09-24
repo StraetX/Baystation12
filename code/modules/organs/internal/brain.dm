@@ -18,10 +18,10 @@
 
 	var/can_use_mmi = TRUE
 	var/mob/living/carbon/brain/brainmob = null
-	var/const/damage_threshold_count = 10
+	var/const/damage_threshold_count = 5
 	var/damage_threshold_value
 	var/healed_threshold = 1
-	var/oxygen_reserve = 6
+	var/oxygen_reserve = 2
 	var/fake_brain = 0
 
 /obj/item/organ/internal/brain/robotize()
@@ -183,12 +183,12 @@
 				if(BLOOD_VOLUME_OKAY to BLOOD_VOLUME_SAFE)
 					if(prob(1))
 						to_chat(owner, "<span class='warning'>[pick("У вас кружитс&#255; голова","Вам т&#255;жело удержать равновесие","Вы чувствуете слабость")]...</span>")
-					damprob = owner.chem_effects[CE_STABLE] ? 30 : 60
+					damprob = owner.chem_effects[CE_STABLE] ? 40 : 80
 					if(!past_damage_threshold(2) && prob(damprob))
 						take_internal_damage(1)
 				if(BLOOD_VOLUME_BAD to BLOOD_VOLUME_OKAY)
 					owner.eye_blurry = max(owner.eye_blurry,6)
-					damprob = owner.chem_effects[CE_STABLE] ? 40 : 80
+					damprob = owner.chem_effects[CE_STABLE] ? 60 : 100
 					if(!past_damage_threshold(4) && prob(damprob))
 						take_internal_damage(1)
 					if(!owner.paralysis && prob(10))
@@ -196,7 +196,7 @@
 						to_chat(owner, "<span class='warning'>[pick("Вы падаете от головоружени&#255;","Вы тер&#255;ете равновесие и падаете от слабости","Вы обессиленно упали")]...</span>")
 				if(BLOOD_VOLUME_SURVIVE to BLOOD_VOLUME_BAD)
 					owner.eye_blurry = max(owner.eye_blurry,6)
-					damprob = owner.chem_effects[CE_STABLE] ? 60 : 100
+					damprob = owner.chem_effects[CE_STABLE] ? 80 : 100
 					if(!past_damage_threshold(6) && prob(damprob))
 						take_internal_damage(1)
 					if(!owner.paralysis && prob(15))
@@ -204,7 +204,7 @@
 						to_chat(owner, "<span class='warning'>[pick("Вы падаете от головоружени&#255;","Вы тер&#255;ете равновесие и падаете от слабости","Вы обессиленно упали")]...</span>")
 				if(-(INFINITY) to BLOOD_VOLUME_SURVIVE) // Also see heart.dm, being below this point puts you into cardiac arrest.
 					owner.eye_blurry = max(owner.eye_blurry,6)
-					damprob = owner.chem_effects[CE_STABLE] ? 80 : 100
+					damprob = owner.chem_effects[CE_STABLE] ? 90 : 100
 					if(prob(damprob))
 						take_internal_damage(1)
 					if(prob(damprob))
