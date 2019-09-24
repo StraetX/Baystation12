@@ -3,6 +3,7 @@ baystation12.dmb
 baystation12.dyn.rsc
 baystation12.int
 baystation12.rsc
+config/admins.txt
 data/banlist.bdb
 data/job_full.ban
 data/logs/2019/09/23.log
