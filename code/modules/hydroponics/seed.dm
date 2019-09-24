@@ -71,7 +71,6 @@
 	set_trait(TRAIT_IDEAL_HEAT,           293)          // Preferred temperature in Kelvin.
 	set_trait(TRAIT_NUTRIENT_CONSUMPTION, 0.25)         // Plant eats this much per tick.
 	set_trait(TRAIT_PLANT_COLOUR,         "#46b543")    // Colour of the plant icon.
-	set_trait(TRAIT_ON_HARVEST,			null) //inf //check infinity/code/modules/hydroponics/on_harvest_effects/_effects
 
 	update_growth_stages()
 
@@ -791,11 +790,6 @@
 						mush.seed = src
 			else
 				product = new force_product_replacing(get_turf(user),name)//inf
-		//[INF]
-		if(get_trait(TRAIT_ON_HARVEST))
-			var/typeofonharvest = get_trait(TRAIT_ON_HARVEST)
-			var/datum/hydroponics_effect/on_harvest = new typeofonharvest()
-			on_harvest.triggeredby(user)
 		//[/INF]
 
 // When the seed in this machine mutates/is modified, the tray seed value

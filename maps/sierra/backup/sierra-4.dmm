@@ -700,7 +700,7 @@
 "abU" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/green,
-/obj/structure/bed,
+/obj/structure/curtain/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
@@ -712,7 +712,7 @@
 "abV" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/hos,
-/obj/structure/bed,
+/obj/structure/curtain/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
@@ -724,7 +724,7 @@
 "abW" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/clown,
-/obj/structure/bed,
+/obj/structure/curtain/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
@@ -736,7 +736,7 @@
 "abX" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/rd,
-/obj/structure/bed,
+/obj/structure/curtain/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
@@ -748,7 +748,7 @@
 "abY" = (
 /obj/item/weapon/bedsheet/rainbow,
 /obj/structure/bed/padded,
-/obj/structure/bed,
+/obj/structure/curtain/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
@@ -895,7 +895,7 @@
 "acr" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/orange,
-/obj/structure/bed,
+/obj/structure/curtain/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
