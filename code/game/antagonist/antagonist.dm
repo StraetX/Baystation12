@@ -73,7 +73,6 @@
 	var/default_access = list()
 	var/id_type = /obj/item/weapon/card/id
 
-<<<<<<< HEAD
 	var/antag_text = "Вы - антагонист! Действуйте как противник по отношению к экипажу. \
 		Старайтесь следовать ролевой моделе, которую подразумевает \
 		Ваша роль и оставьте при&#255;тные впечатлени&#255; от игры не только дл&#255; себ&#255;, \
@@ -87,14 +86,6 @@
 		или выжиданием удобного момента, которым может стать прыжок после двухчасовой скуки. \
 		Если Вы растер&#255;ны или не знаете, что делать - не бойтесь спрашивать администраторов (F1). Сюда также \
 		входит совершение действие, которые, по вашему мнению, могут нарушать правила сервера."
-=======
-	var/antag_text = "You are an antagonist! Within the rules, \
-		try to act as an opposing force to the crew. Further RP and try to make sure \
-		other players have <i>fun</i>! If you are confused or at a loss, always adminhelp, \
-		and before taking extreme actions, please try to also contact the administration! \
-		Think through your actions and make the roleplay immersive! <b>Please remember all \
-		rules aside from those without explicit exceptions apply to antagonists.</b>"
->>>>>>> parent of ca21379241... РџРѕРґРіРѕС‚РѕРІРєР° Рє РѕС‚РєР»СЋС‡РµРЅРёСЋ С†РµР»РµР№ Сѓ Р°РЅС‚Р°РіРѕРЅРёСЃС‚РѕРІ.
 
 /datum/antagonist/New()
 	GLOB.all_antag_types_[id] = src
