@@ -18,17 +18,6 @@
 //	icon_keyboard = "tiny_keyboard"
 //	icon_screen = "lift"
 
-datum/shuttle/autodock/ferry/bridge
-	name = "Bridge Operation Mode"
-	shuttle_area = /area/bridge/nano
-	warmup_time = 5
-	waypoint_station = "nav_bridge_bottom"
-	waypoint_offsite = "nav_bridge_top"
-	sound_takeoff = 'sound/effects/lift_heavy_start.ogg'
-	sound_landing = 'sound/effects/lift_heavy_stop.ogg'
-	ceiling_type = null
-	knockdown = 0
-
 /obj/effect/shuttle_landmark/lift/bridge_top
 	name = "Battle mode"
 	landmark_tag = "nav_bridge_top"
