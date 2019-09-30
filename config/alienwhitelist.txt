@@ -4,7 +4,7 @@ SprSaf - resomi
 YuriNone - giant armoured serpentid
 #- diona
 # - vox
-# - unathi
+Buharin - unathi
 JuriNireVarin - tajaran
 # - adherent
 # - Kharmaan Gyne
