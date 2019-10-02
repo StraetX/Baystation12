@@ -197,7 +197,7 @@ GUEST_BAN
 # FORUMURL http://example.com
 
 ## Wiki address
-# WIKIURL http://example.com
+WIKIURL https://wiki.infinity-ss13.info
 
 ## GitHub address
 # GITHUBURL https://github.com/example-user/example-repository
