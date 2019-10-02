@@ -1,4 +1,7 @@
 //Sidenote; Try to keep a requirement of 5 engineering for each, but keep the rest as similiar to it's original as possible.
+/datum/design/item/rig
+	category_items = "RIG Modules"
+
 /datum/design/item/rig/AssembleDesignName()
 	..()
 	name = "RIG module ([item_name])"

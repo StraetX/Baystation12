@@ -59,6 +59,8 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 	var/obj/machinery/r_n_d/circuit_imprinter/linked_imprinter = null	//Linked Circuit Imprinter
 
 	var/screen = 1.0	//Which screen is currently showing.
+	var/category_items_screen = null
+	var/category_items_list[0]
 	var/id = 0			//ID of the computer (for server restrictions).
 	var/sync = 1		//If sync = 0, it doesn't show up on Server Control Console
 	var/can_analyze = TRUE //If the console is allowed to use destructive analyzers
@@ -166,7 +168,10 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 	if(href_list["menu"]) //Switches menu screens. Converts a sent text string into a number. Saves a LOT of code.
 		screen = text2num(href_list["menu"])
 		. = TOPIC_REFRESH
-
+		category_items_screen = href_list["category_items_screen"]
+		if(category_items_screen == null)
+			category_items_list = new /list(0)
+		
 	else if(href_list["updt_tech"]) //Update the research holder with information from the technology disk.
 		. = TOPIC_REFRESH
 		if(!t_disk)
@@ -730,6 +735,8 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 		if(3.1)
 			CHECK_LATHE
 			dat += "<A href='?src=\ref[src];menu=1.0'>Main Menu</A> || "
+			if(category_items_screen != null)
+				dat += "<A href='?src=\ref[src];menu=3.1'>Protolathe Menu</A> || "
 			dat += "<A href='?src=\ref[src];menu=3.4'>View Queue</A> || "
 			dat += "<A href='?src=\ref[src];menu=3.2'>Material Storage</A> || "
 			dat += "<A href='?src=\ref[src];menu=3.3'>Chemical Storage</A><HR>"
@@ -738,24 +745,34 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 			dat += "<B>Chemical Volume:</B> [linked_lathe.reagents.total_volume] (MAX: [linked_lathe.reagents.maximum_volume])<HR>"
 			dat += "<UL>"
 			var/protolathe_bonus = list(2, 1.5, 1, 0.9, 0.8)[operator_device_skill]
+
 			for(var/datum/design/D in files.known_designs)
 				if(!D.build_path || !(D.build_type & PROTOLATHE))
 					continue
 				var/temp_dat
-				var/name_dat = D.name
-				for(var/M in D.materials)
-					temp_dat += ", [round(D.materials[M]*linked_lathe.mat_efficiency * protolathe_bonus)] [CallMaterialName(M)]"
-				for(var/T in D.chemicals)
-					temp_dat += ", [round(D.chemicals[T]*linked_lathe.mat_efficiency * protolathe_bonus)] [CallReagentName(T)]"
-				if(temp_dat)
-					temp_dat = " \[[copytext(temp_dat, 3)]\]"
-				if(!(user.skill_check(SKILL_DEVICES, SKILL_BASIC)))
-					temp_dat = corrupt_text(temp_dat)
-					name_dat = corrupt_text(name_dat)
-				if(linked_lathe.canBuild(D, protolathe_bonus))
-					final_dat += "<LI><B><A href='?src=\ref[src];build=[D.id]'>[name_dat]</A></B>[temp_dat]"
-				else
-					final_dat += "<LI><B>[name_dat]</B>[temp_dat]"
+				if(category_items_screen == null)
+					if(category_items_list.Find(D.category_items))
+						continue
+					category_items_list += D.category_items
+					var/category_items_name = D.category_items
+					if(!(user.skill_check(SKILL_DEVICES, SKILL_BASIC)))
+						category_items_name = corrupt_text(category_items_name)
+					final_dat += "<LI><B><A href='?src=\ref[src];menu=3.1;category_items_screen=[category_items_name]'>[category_items_name]</A></B>"
+				else if(category_items_screen == D.category_items)
+					var/name_dat = D.name
+					for(var/M in D.materials)
+						temp_dat += ", [round(D.materials[M]*linked_lathe.mat_efficiency * protolathe_bonus)] [CallMaterialName(M)]"
+					for(var/T in D.chemicals)
+						temp_dat += ", [round(D.chemicals[T]*linked_lathe.mat_efficiency * protolathe_bonus)] [CallReagentName(T)]"
+					if(temp_dat)
+						temp_dat = " \[[copytext(temp_dat, 3)]\]"
+					if(!(user.skill_check(SKILL_DEVICES, SKILL_BASIC)))
+						temp_dat = corrupt_text(temp_dat)
+						name_dat = corrupt_text(name_dat)
+					if(linked_lathe.canBuild(D, protolathe_bonus))
+						final_dat += "<LI><B><A href='?src=\ref[src];build=[D.id]'>[name_dat]</A></B>[temp_dat]"
+					else
+						final_dat += "<LI><B>[name_dat]</B>[temp_dat]"
 
 			if(user.skill_check(SKILL_DEVICES, SKILL_ADEPT))
 				dat += final_dat

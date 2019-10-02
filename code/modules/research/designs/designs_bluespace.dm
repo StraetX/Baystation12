@@ -1,7 +1,10 @@
+/datum/design/item/bluespace
+	category_items = "Bluespace"
+
 /datum/design/item/bluespace/AssembleDesignName()
 	..()
 	name = "Bluespace device ([item_name])"
-
+	
 /datum/design/item/bluespace/beacon
 	name = "tracking beacon"
 	id = "beacon"
