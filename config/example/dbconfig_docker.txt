@@ -9,7 +9,7 @@ ADDRESS db
 PORT 3306
 
 # Database the population, death, karma, etc. tables may be found in
-DATABASE bs12
+DATABASE infinity220
 
 # Username/Login used to access the database
 LOGIN gamelord
@@ -18,7 +18,7 @@ LOGIN gamelord
 PASSWORD gamelord
 
 # The following information is for feedback tracking via the blackbox server
-FEEDBACK_DATABASE gamelord
+FEEDBACK_DATABASE infinity220
 FEEDBACK_LOGIN gamelord
 FEEDBACK_PASSWORD gamelord
 
