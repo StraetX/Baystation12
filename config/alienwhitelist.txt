@@ -6,6 +6,5 @@ YuriNone - giant armoured serpentid
 # - vox
 Buharin - unathi
 JuriNireVarin - tajaran
-Veshenka4 - tajaran
 # - adherent
 # - Kharmaan Gyne
