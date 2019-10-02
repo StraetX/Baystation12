@@ -16,12 +16,25 @@
 	allowed_ranks = list(/datum/mil_rank/civ/nt)
 
 	skill_points = 24
-	min_skill = list(   SKILL_COMPUTER     = SKILL_BASIC,
-	                    SKILL_EVA          = SKILL_ADEPT,
-	                    SKILL_CONSTRUCTION = SKILL_ADEPT,
-	                    SKILL_ELECTRICAL   = SKILL_ADEPT,
-	                    SKILL_ATMOS        = SKILL_ADEPT,
-	                    SKILL_ENGINES      = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
 						SKILL_COMPUTER     = SKILL_MAX,
@@ -67,12 +80,25 @@
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor)
 
 	skill_points = 20
-	min_skill = list(   SKILL_COMPUTER     = SKILL_BASIC,
-	                    SKILL_EVA          = SKILL_ADEPT,
-	                    SKILL_CONSTRUCTION = SKILL_ADEPT,
-	                    SKILL_ELECTRICAL   = SKILL_ADEPT,
-	                    SKILL_ATMOS        = SKILL_ADEPT,
-	                    SKILL_ENGINES      = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
 	                    SKILL_ELECTRICAL   = SKILL_MAX,
@@ -112,12 +138,25 @@
 
 	no_skill_buffs = TRUE
 	skill_points = 16
-	min_skill = list(   SKILL_COMPUTER     = SKILL_BASIC,
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
 	                    SKILL_EVA          = SKILL_BASIC,
-	                    SKILL_CONSTRUCTION = SKILL_BASIC,
-	                    SKILL_ELECTRICAL   = SKILL_BASIC,
-	                    SKILL_ATMOS        = SKILL_BASIC,
-	                    SKILL_ENGINES      = SKILL_BASIC)
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
 	                    SKILL_ELECTRICAL   = SKILL_MAX,
@@ -155,9 +194,25 @@
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor)
 
 	skill_points = 12
-	min_skill = list(   SKILL_COMPUTER     = SKILL_ADEPT,
-	                    SKILL_CONSTRUCTION = SKILL_BASIC,
-	                    SKILL_ELECTRICAL   = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_ELECTRICAL   = SKILL_MAX,
 	                    SKILL_COMPUTER	   = SKILL_MAX)

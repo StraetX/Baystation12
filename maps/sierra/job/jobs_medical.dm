@@ -16,11 +16,25 @@
 	outfit_type = /decl/hierarchy/outfit/job/sierra/crew/medical/senior
 	allowed_branches = list(/datum/mil_branch/employee, /datum/mil_branch/contractor)
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_MEDICAL     = SKILL_ADEPT,
-	                    SKILL_ANATOMY     = SKILL_EXPERT,
-	                    SKILL_CHEMISTRY   = SKILL_BASIC,
-	                    SKILL_VIROLOGY    = SKILL_BASIC)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_ANATOMY     = SKILL_MAX)
@@ -52,9 +66,25 @@
 	outfit_type = /decl/hierarchy/outfit/job/sierra/crew/medical/doctor
 	allowed_branches = list(/datum/mil_branch/employee, /datum/mil_branch/contractor)
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor)
-	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
-	                    SKILL_MEDICAL = SKILL_BASIC,
-	                    SKILL_ANATOMY = SKILL_BASIC)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_VIROLOGY    = SKILL_MAX)
@@ -85,8 +115,25 @@
 	outfit_type = /decl/hierarchy/outfit/job/sierra/crew/medical/doctor
 	allowed_branches = list(/datum/mil_branch/employee, /datum/mil_branch/contractor)
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor)
-	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
-	                    SKILL_MEDICAL = SKILL_BASIC)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_MEDICAL	= SKILL_MAX)
 	skill_points = 18
@@ -115,8 +162,25 @@
 	outfit_type = /decl/hierarchy/outfit/job/sierra/crew/medical/doctor/chemist
 	allowed_branches = list(/datum/mil_branch/employee, /datum/mil_branch/contractor)
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor)
-	min_skill = list(   SKILL_MEDICAL   = SKILL_BASIC,
-	                    SKILL_CHEMISTRY = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
@@ -142,8 +206,25 @@
 	outfit_type = /decl/hierarchy/outfit/job/sierra/crew/medical/counselor
 	allowed_branches = list(/datum/mil_branch/employee, /datum/mil_branch/civilian, /datum/mil_branch/contractor)
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor, /datum/mil_rank/civ/civ)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_MEDICAL     = SKILL_BASIC)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX)
 

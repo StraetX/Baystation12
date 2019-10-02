@@ -6,6 +6,26 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of personnel"
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
+
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_bar)
 	outfit_type = /decl/hierarchy/outfit/job/service/bartender
@@ -18,6 +38,26 @@
 	spawn_positions = 2
 	supervisors = "the head of personnel"
 	access = list(access_hydroponics, access_bar, access_kitchen)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
+
 	minimal_access = list(access_kitchen)
 	alt_titles = list("Cook")
 	outfit_type = /decl/hierarchy/outfit/job/service/chef
@@ -30,6 +70,26 @@
 	spawn_positions = 1
 	supervisors = "the head of personnel"
 	access = list(access_hydroponics, access_bar, access_kitchen)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
+
 	minimal_access = list(access_hydroponics)
 	alt_titles = list("Hydroponicist")
 	outfit_type = /decl/hierarchy/outfit/job/service/gardener

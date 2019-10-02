@@ -22,13 +22,25 @@
 
 	minimal_access = list()
 
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_COMPUTER    = SKILL_BASIC,
-	                    SKILL_FINANCE     = SKILL_BASIC,
-	                    SKILL_BOTANY      = SKILL_BASIC,
-	                    SKILL_ANATOMY     = SKILL_BASIC,
-	                    SKILL_DEVICES     = SKILL_ADEPT,
-	                    SKILL_SCIENCE     = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_DEVICES     = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX,
@@ -51,10 +63,25 @@
 		"Xenobiologist",
 		"Xenobotanist",
 		"Psychologist" = /decl/hierarchy/outfit/job/sierra/crew/research/scientist/psych)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_COMPUTER    = SKILL_BASIC,
-	                    SKILL_DEVICES     = SKILL_BASIC,
-	                    SKILL_SCIENCE     = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_DEVICES     = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX,
@@ -87,10 +114,25 @@
 	outfit_type = /decl/hierarchy/outfit/job/sierra/crew/research/roboticist
 	allowed_branches = list(/datum/mil_branch/employee, /datum/mil_branch/contractor)
 	allowed_ranks = list(/datum/mil_rank/civ/nt, /datum/mil_rank/civ/contractor)
-	min_skill = list(   SKILL_COMPUTER		= SKILL_ADEPT,
-	                    SKILL_DEVICES		= SKILL_ADEPT,
-	                    SKILL_EVA           = SKILL_ADEPT,
-	                    SKILL_ANATOMY       = SKILL_ADEPT,
+	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT,
 	                    SKILL_MECH          = HAS_PERK)
 
 	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
@@ -125,9 +167,25 @@
 		"Clerk",
 		"Field Assistant")
 
-	max_skill = list(   SKILL_DEVICES     = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX,
-	                    SKILL_CHEMISTRY   = SKILL_MAX)
+	max_skill = list(   SKILL_BUREAUCRACY  = SKILL_ADEPT,
+	                    SKILL_FINANCE      = SKILL_ADEPT,
+	                    SKILL_HAULING      = SKILL_ADEPT,
+	                    SKILL_EVA          = SKILL_BASIC,
+						SKILL_PILOTING	   = SKILL_ADEPT,
+						SKILL_ATMOS        = SKILL_ADEPT,
+						SKILL_CONSTRUCTION = SKILL_ADEPT,
+						SKILL_ELECTRICAL   = SKILL_ADEPT,
+						SKILL_ENGINES      = SKILL_ADEPT,
+						SKILL_COMPUTER     = SKILL_ADEPT,
+						SKILL_PILOT        = SKILL_ADEPT,
+						SKILL_SCIENCE      = SKILL_ADEPT,
+						SKILL_ANATOMY      = SKILL_ADEPT,
+						SKILL_COOKING      = SKILL_ADEPT,
+						SKILL_MEDICAL      = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_VIROLOGY     = SKILL_ADEPT,
+						SKILL_CHEMISTRY    = SKILL_ADEPT,
+						SKILL_DEVICES      = SKILL_ADEPT)
 
 
 	outfit_type = /decl/hierarchy/outfit/job/sierra/crew/research/assist
