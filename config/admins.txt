@@ -8,7 +8,6 @@
 # not_a_user - Admin
 Rv666 - Host
 Straet - HeadAdmin
-Def0lt - HeadAdmin
 jediofgood - GameAdmin
 Bumer5117 - TrialAdmin
 zigamus - GameAdmin
