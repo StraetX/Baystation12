@@ -4,7 +4,7 @@ SprSaf - resomi
 YuriNone - giant armoured serpentid
 #- diona
 # - vox
-Fire_4rcher - tajaran
+Fire4rcher - tajaran
 Veshenka4 - tajaran
 Buharin - unathi
 JuriNireVarin - tajaran
