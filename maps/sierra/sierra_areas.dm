@@ -992,6 +992,11 @@
 	icon_state = "brig"
 	req_access = list(access_warden)
 
+/area/security/sierra/Justice
+	name = "Court of justice"
+	icon_state = "brig"
+	req_access = list(access_warden)
+
 /area/security/sierra/armory
 	name = "Security - Armory"
 	icon_state = "armory"
