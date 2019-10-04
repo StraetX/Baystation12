@@ -6,7 +6,11 @@
 ######################################################################
 
 # not_a_user - Admin
+Rv666 - Host
 Straet - HeadAdmin
-Def0lt - HeadAdmin
-Jedy_of_Good - GameAdmin
-Fenek - Mentor
+jediofgood - GameAdmin
+Bumer5117 - TrialAdmin
+zigamus - GameAdmin
+erementhompage - GameAdmin
+dakapapreta - HeadAdmin
+azizonkg - GameAdmin
