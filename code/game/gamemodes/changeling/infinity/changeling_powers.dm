@@ -258,7 +258,7 @@ var/global/list/possible_changeling_IDs = list("Alpha","Beta","Gamma","Delta","E
 	absorbDNA(newDNA)
 	if(mind && T.mind)
 		var/memories_temp = list()
-		memories_temp += "[T.real_name]'s memories:<hr>"
+		memories_temp += "[T.real_name]\'s memories:<hr>"
 		memories_temp += T.mind.memories
 		memories_temp += "<hr>"
 		mind.StoreMemory(memories_temp)
