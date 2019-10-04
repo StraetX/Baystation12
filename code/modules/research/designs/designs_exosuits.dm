@@ -1,5 +1,5 @@
 /datum/design/circuit/exosuit
-	category_items = "Exosuit"
+	category_items = "Exosuit Modules"
 
 /datum/design/circuit/exosuit/AssembleDesignName()
 	name = "Exosuit software design ([name])"
