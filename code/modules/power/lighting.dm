@@ -279,7 +279,7 @@
 		update_icon(0)
 
 /obj/machinery/light/proc/set_emergency_lighting(var/enable)
-	if(enable)
+	if(enable && lightbulb != null)
 		if(LIGHTMODE_EMERGENCY in lightbulb.lighting_modes)
 			set_mode(LIGHTMODE_EMERGENCY)
 			update_power_channel(ENVIRON)
