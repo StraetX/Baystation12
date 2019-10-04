@@ -30,18 +30,24 @@ var/list/ticket_panels = list()
 	if(status == TICKET_ASSIGNED && !((closed_by.ckey in assigned_admin_ckeys()) || owner.ckey == closed_by.ckey) && alert(client_by_ckey(closed_by.ckey), "You are not assigned to this ticket. Are you sure you want to close it?",  "Close ticket?" , "Yes" , "No") != "Yes")
 		return
 
-	var/client/real_client = client_by_ckey(closed_by.ckey)
-	if(status == TICKET_ASSIGNED && (!real_client || !real_client.holder)) // non-admins can only close a ticket if no admin has taken it
-		return
+	if(closed_by.ckey != null)
+		var/client/real_client = client_by_ckey(closed_by.ckey)
+		if(status == TICKET_ASSIGNED && (!real_client || !real_client.holder)) // non-admins can only close a ticket if no admin has taken it
+			return
+
+		to_chat(client_by_ckey(src.owner.ckey), "<span class='notice'><b>Your ticket has been closed by [closed_by.ckey].</b></span>")
+		message_staff("<span class='notice'><b>[src.owner.key_name(0)]</b>'s ticket has been closed by <b>[closed_by.key_name(0)]</b>.</span>")
+		send2adminirc("[src.owner.key_name(0)]'s ticket has been closed by [closed_by.key_name(0)].")
+		send2admindiscord("[src.owner.key_name(0)]'s ticket has been closed by [closed_by.key_name(0)].")
+	else
+		to_chat(client_by_ckey(src.owner.ckey), "<span class='notice'><b>Your ticket has been closed by timeout.</b></span>")
+		message_staff("<span class='notice'><b>[src.owner.key_name(0)]</b>'s ticket has been closed by <b>timeout</b>.</span>")
+		send2adminirc("[src.owner.key_name(0)]'s ticket has been closed by timeout.")
+		send2admindiscord("[src.owner.key_name(0)]'s ticket has been closed by timeout.")
 
 	src.status = TICKET_CLOSED
 	src.closed_by = closed_by
-
-	to_chat(client_by_ckey(src.owner.ckey), "<span class='notice'><b>Your ticket has been closed by [closed_by.ckey].</b></span>")
-	message_staff("<span class='notice'><b>[src.owner.key_name(0)]</b>'s ticket has been closed by <b>[closed_by.key_name(0)]</b>.</span>")
-	send2adminirc("[src.owner.key_name(0)]'s ticket has been closed by [closed_by.key_name(0)].")
-	send2admindiscord("[src.owner.key_name(0)]'s ticket has been closed by [closed_by.key_name(0)].")
-
+	
 	update_ticket_panels()
 
 	return 1
