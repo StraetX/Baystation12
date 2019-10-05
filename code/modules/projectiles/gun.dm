@@ -93,6 +93,20 @@
 	var/has_safety = TRUE
 	var/safety_icon 	   //overlay to apply to gun based on safety state, if any
 
+	///////////////////////////////////////////////////////
+	///////////////////////INFINITY////////////////////////
+	////             serial numbers things!!!          ////
+	///////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////
+
+	var/is_serial = 0 //the entrie variable that defines should the gun have serial
+	var/serial // < most important thing, this is the SERIAL itself
+	var/s_type //energy or kinetic
+	var/s_gun //gun type, e.g. LP - laep
+	//see below
+
+var/global/serials = list()
+
 /obj/item/weapon/gun/Initialize()
 	. = ..()
 	for(var/i in 1 to firemodes.len)
@@ -103,6 +117,14 @@
 
 	if(scope_zoom)
 		verbs += /obj/item/weapon/gun/proc/scope
+//INF
+	if(is_serial) //serial
+		var/snum = rand(1,10000)
+		while(snum in serials) //system against similar numbers
+			snum = rand(1,10000)
+		serial = "[s_type]-[s_gun]-[snum]" //e.g K-P20-9999
+		serials += serial //list of serials
+//INF END
 
 /obj/item/weapon/gun/update_twohanding()
 	if(one_hand_penalty)
@@ -569,11 +591,11 @@
 //[INF]
 	switch(bulk)
 		if(1) to_chat(user, "This weapon bulky like a <b>pistol!</b> You just need finish the <b>basic</b> training with weapons.")
-		if(2) to_chat(user, "This weapon bulky like a <b>heavy pistol!</b> You have to be <b>trained</b> in both athletic and finish the <b>basic</b> training with weapons to hold and shoot propertly from it.")
-		if(3) to_chat(user, "This weapon bulky like a <b>sub-machinegun!</b> You have to be <b>minimally fit</b> and be <b>trained</b> in handling automatic weapons to hold and shoot propertly from it.")
-		if(4) to_chat(user, "This weapon bulky like a <b>carabine!</b> You have to be <b>trained</b> in both athletic and weapon handling</b> to hold and shoot propertly from it.")
-		if(5) to_chat(user, "This weapon bulky like a <b>assault rifle!</b> You have to be <b>trained</b> in both athletic and weapon handling skills to hold and shoot propertly from it.")
-		if(6) to_chat(user, "This weapon bulky like a <b>sniper rifle!</b> You have to be <b>trained</b> in athletic and have <b>expirienced</b> weapon handling skills to hold and shoot propertly from it, but if you trained, you at least can hold it.")
+		if(2) to_chat(user, "This weapon bulky like a <b>heavy pistol!</b> You have to be <b>trained in athletic and finish the basic weapon handling</b> to hold and shoot propertly from it.")
+		if(3) to_chat(user, "This weapon bulky like a <b>sub-machinegun!</b> You have to be <b>minimally fit and be trained in weapon handling</b> to hold and shoot propertly from it.")
+		if(4) to_chat(user, "This weapon bulky like a <b>carabine!</b> You have to be <b>trained in both athletic and weapon handling</b> to hold and shoot propertly from it.")
+		if(5) to_chat(user, "This weapon bulky like an <b>assault rifle!</b> You have to be <b>trained in both athletic and weapon handling</b> skills to hold and shoot propertly from it.")
+		if(6) to_chat(user, "This weapon bulky like a <b>sniper rifle!</b> You have to be <b>trained in athletic and have <b>expirienced weapon handling</b> skills to hold and shoot propertly from it, but if you trained, you at least can hold it.")
 		if(7) to_chat(user, "This weapon bulky like a <b>machinegun!</b> You have to be <b>expirienced in athletic and weapon handling</b> to hold and shoot propertly from it, but if you trained, you at least can hold it.")
 		else to_chat(user, "This weapon bulky like a <b>holdout pistol!</b> Even kid can shoot from it.")
 //[/INF]
