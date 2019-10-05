@@ -2,6 +2,7 @@
 # - skrell
 SprSaf - resomi
 YuriNone - giant armoured serpentid
+StrangeBoi - giant armoured serpentid
 #- diona
 # - vox
 Fire4rcher - tajaran
