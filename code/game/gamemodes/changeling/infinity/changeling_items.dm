@@ -12,7 +12,7 @@
 		slot_r_hand_str = "arm_blade_lh")
 	hitsound = 'infinity/sound/weapons/bloodyslice.ogg'
 	w_class = 4
-	force = 23
+	force = 18
 	siemens_coefficient = 0.4
 	base_parry_chance = 40
 	canremove = 0
