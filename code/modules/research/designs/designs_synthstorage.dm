@@ -1,5 +1,5 @@
 /datum/design/item/synthstorage
-	category_items = "Medical"
+	category_items = "Synth Storage"
 
 /datum/design/item/synthstorage/AssembleDesignName()
 	..()
