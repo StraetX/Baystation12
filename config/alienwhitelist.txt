@@ -1,4 +1,4 @@
-# - machine
+VoidSoul - machine
 # - skrell
 SprSaf - resomi
 YuriNone - giant armoured serpentid
