@@ -292,6 +292,15 @@
 	body_parts_covered = 0
 	flags_inv = BLOCKHEADHAIR //Shows beards!
 
+/obj/item/clothing/head/commisarcap
+	name = "Commisar cap"
+	desc = "A commisar cap with gold aquila on it"
+	icon_state = "commisarcap"
+	item_state = "commisarcap"
+	body_parts_covered = 0
+	flags_inv = BLOCKHEADHAIR //Shows beards!
+
+
 /obj/item/clothing/head/cowboy_hat
 	name = "cowboy hat"
 	desc = "A wide-brimmed hat, in the prevalent style of America's frontier period. By SolGov law, you are required to wear this hat while watching True Grit."

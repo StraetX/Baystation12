@@ -236,6 +236,13 @@
 	desc = "A synthetic armor vest with COMMANDER printed in gold lettering on the chest. This one has added webbing and ballistic plates."
 	icon_state = "comwebvest"
 
+/obj/item/clothing/suit/storage/vest/commisarcoat
+	name = "Ñommissar coat"
+	desc = "The rich and armored comissar coat."
+	icon_state = "commisarcoat"
+	item_state = "commisarcoat"
+
+
 /obj/item/clothing/suit/storage/vest/pcrc
 	name = "contractor heavy armored vest"
 	desc = "A synthetic armor vest with PRIVATE SECURITY printed in cyan lettering on the chest. This one has added webbing and ballistic plates."
