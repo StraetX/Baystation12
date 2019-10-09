@@ -143,6 +143,7 @@
 
 	max_skill = list(   SKILL_COMBAT  = SKILL_MAX,
 	                    SKILL_WEAPONS = SKILL_MAX)
+	required_role = "Merchant"
 
 	skill_points = 24
 /*
