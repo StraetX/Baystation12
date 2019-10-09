@@ -268,7 +268,7 @@
 /obj/effect/landmark{
 	name = "voxstart"
 	},
-/obj/structure/curtain/bed,
+/obj/structure/bed,
 /turf/simulated/floor/carpet,
 /area/syndicate_mothership/raider_base)
 "aaR" = (
@@ -348,7 +348,7 @@
 /area/syndicate_mothership)
 "abc" = (
 /obj/structure/bed/padded,
-/obj/structure/curtain/bed,
+/obj/structure/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
@@ -684,7 +684,7 @@
 /area/syndicate_mothership/raider_base)
 "abV" = (
 /obj/structure/bed/padded,
-/obj/structure/curtain/bed,
+/obj/structure/bed,
 /obj/effect/landmark/start{
 	name = "Raider"
 	},
