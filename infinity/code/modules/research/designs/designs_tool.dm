@@ -6,6 +6,7 @@
 	materials = list(DEFAULT_WALL_MATERIAL = 50000)
 	build_path = /obj/item/weapon/rpd
 	sort_string = "VAGAK"
+	category_items = "Tools and Devices"
 
 /datum/design/item/tool/powersink
 	name = "powersink"
@@ -15,12 +16,14 @@
 	materials = list(MATERIAL_STEEL = 5000, MATERIAL_GLASS = 5000, MATERIAL_DIAMOND = 500)
 	build_path = /obj/item/device/powersink
 	sort_string = "VAGAN"
+	category_items = "Tools and Devices"
 
 /datum/design/item/tool/multimeter
 	name = "multimeter"
-	desc = "Используетс&#255; дл&#255; измерени&#255; потреблени&#255; электроэнергии оборудовани&#255; и прозвонки проводов. Рекомендуетс&#255; докторами."
+	desc = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255; пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ."
 	id = "multimeter"
 	req_tech = list(TECH_MAGNET = 4, TECH_ENGINEERING = 5, TECH_MATERIAL = 6)
 	materials = list(DEFAULT_WALL_MATERIAL = 1000, MATERIAL_GLASS = 1000, MATERIAL_SILVER = 500)
 	build_path = /obj/item/device/multitool/multimeter
 	sort_string = "VAGAM"
+	category_items = "Tools and Devices"

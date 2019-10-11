@@ -1986,7 +1986,6 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
 	},
-/obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/map_template/colony/medbay)
 "eb" = (
@@ -3380,6 +3379,7 @@
 /obj/item/weapon/reagent_containers/food/drinks/pitcher,
 /obj/item/weapon/reagent_containers/glass/beaker/bowl,
 /obj/item/weapon/reagent_containers/food/condiment/salt,
+/obj/item/weapon/reagent_containers/food/condiment/enzyme,
 /turf/simulated/floor/tiled/freezer,
 /area/map_template/colony/messhall)
 "gf" = (
@@ -5905,8 +5905,8 @@
 	dir = 8
 	},
 /obj/structure/table/steel_reinforced,
-/obj/machinery/reagentgrinder,
 /obj/item/weapon/reagent_containers/glass/beaker/large,
+/obj/machinery/reagentgrinder/juicer,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony/hydroponics)
 "kf" = (
@@ -5986,13 +5986,6 @@
 	tag_west = 2
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	frequency = 2222;
-	id_tag = "playablecolonymain_pump_out_internal";
-	power_rating = 25000;
-	tag = "playablecolonymain_pump"
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/colony/airlock)
 "ko" = (
@@ -6209,7 +6202,7 @@
 /obj/machinery/button/alternate/door/bolts{
 	id_tag = "colj";
 	name = "Jail Bolt Control";
-	pixel_x = 28;
+	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony/jail)
@@ -7833,9 +7826,6 @@
 	},
 /obj/effect/wallframe_spawn/reinforced_phoron/prepainted,
 /obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},

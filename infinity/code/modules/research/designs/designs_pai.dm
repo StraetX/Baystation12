@@ -1,7 +1,7 @@
 /datum/design/item/paimod
 	req_tech = list(TECH_DATA = 2)
 	materials = list(MATERIAL_STEEL = 500)
-
+	category_items = "Synth Storage"
 
 /datum/design/item/paimod/memory
 	req_tech = list(TECH_DATA = 3)

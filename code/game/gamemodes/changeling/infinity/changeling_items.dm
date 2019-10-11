@@ -12,17 +12,17 @@
 		slot_r_hand_str = "arm_blade_lh")
 	hitsound = 'infinity/sound/weapons/bloodyslice.ogg'
 	w_class = 4
-	force = 23
+	force = 14
 	siemens_coefficient = 0.4
 	base_parry_chance = 40
 	canremove = 0
-	sharp = 1
+	sharp = 0
 	edge = 1
 	anchored = 1
 	throwforce = 0 //Just to be on the safe side
 	throw_range = 0
 	throw_speed = 0
-	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
+	attack_verb = list("attacked", "stabbed", "sliced", "torn", "ripped", "diced")
 	var/mob/living/creator
 
 /obj/item/weapon/melee/arm_blade/dropped(var/mob/living/user)

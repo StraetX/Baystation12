@@ -752,6 +752,8 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 			for(var/datum/design/D in files.known_designs)
 				if(!D.build_path || !(D.build_type & PROTOLATHE))
 					continue
+				if(D.category_items == null)
+					D.category_items = "Unsorted"
 				if(!(D.category_items in category_items_list_lathe))
 					category_items_list_lathe += D.category_items
 					var/category_items_name = D.category_items
@@ -880,6 +882,8 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 			for(var/datum/design/D in files.known_designs)
 				if(!D.build_path || !(D.build_type & IMPRINTER))
 					continue
+				if(D.category_items == null)
+					D.category_items = "Unsorted"
 				if(!(D.category_items in category_items_list_imprinter))
 					category_items_list_imprinter += D.category_items
 					var/category_items_name = D.category_items
