@@ -85,6 +85,25 @@ obj/item/weapon/gun/energy/retro
 	bulk = GUN_BULK_REVOLVER //inf
 	one_hand_penalty = 1 //a little bulky
 
+/obj/item/weapon/gun/energy/lasgun
+	name = "Lasgun"
+	desc = "—тандартное оружие астрамилитарум."
+	icon = 'icons/obj/guns/lasgun.dmi'
+	icon_state = "lasgun"
+	item_state = "lasgun"
+	slot_flags = SLOT_BACK
+	force = 10
+	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
+	matter = list(MATERIAL_STEEL = 2000)
+	max_shots = 15
+	projectile_type = /obj/item/projectile/beam/lasgun
+
+	bulk = GUN_BULK_CARABINE
+	w_class = ITEM_SIZE_LARGE
+	one_hand_penalty = 1
+	s_gun = "Lasgun-S"
+	is_serial = 1
+
 /obj/item/weapon/gun/energy/lasercannon
 	name = "expermental laser cannon"
 	desc = "With the laser cannon, the lasing medium is enclosed in a tube lined with uranium-235 and subjected to high neutron flux in a nuclear reactor core. This incredible technology may help YOU achieve high excitation rates with small laser volumes!"
