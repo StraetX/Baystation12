@@ -416,7 +416,7 @@ var/list/worths = list(
 					/obj/item/clothing/suit/fiendcowl = 560,
 					/obj/item/clothing/suit/infilsuit = 250,
 					/obj/item/clothing/suit/straight_jacket/overseercloak = 100,
-					/obj/item/clothing/suit/space/void/umarmor/prepared = 9000,
+					/obj/item/clothing/suit/space/void/umarmor/prepared = 20000,
 					/obj/item/clothing/suit/storage/vest/commisarcoat = 2700,
 					/obj/item/clothing/suit/radiation/AM_suit = 700,
 //HEADS,
