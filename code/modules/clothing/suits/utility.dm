@@ -124,3 +124,27 @@
 /obj/item/clothing/suit/radiation/New()
 	..()
 	slowdown_per_slot[slot_shoes] = 1.5
+
+/obj/item/clothing/head/radiation/AM_hood
+	name = "adeptus mechanicus hood"
+	icon_state = "AM_hood"
+	item_state = "AM_hood"
+	desc = "A hood with radiation protective and a litle bit armor."
+	flags_inv = BLOCKHAIR
+	body_parts_covered = HEAD|FACE|EYES
+	armor = list(melee = 15, bullet = 10, laser = 10,energy = 10, bomb = 0, bio = 60, rad = 100)
+	tint = 1 //INF, WAS NOTHING (0) (spacesuits with 100% rad.armor have 2)
+
+/obj/item/clothing/suit/radiation/AM_suit
+	name = "adeptus mechanicus suit"
+	desc = "A suit that protects against radiation and have a litle bit armor"
+	icon_state = "AM_suit"
+	item_state = "AM_suit"
+
+	w_class = ITEM_SIZE_HUGE//bulky item
+	gas_transfer_coefficient = 0.90
+	permeability_coefficient = 0.50
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS|HANDS|FEET
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/tank/emergency,/obj/item/clothing/head/radiation,/obj/item/clothing/mask/gas,/obj/item/device/geiger)
+	armor = list(melee = 15, bullet = 10, laser = 10,energy = 10, bomb = 10, bio = 60, rad = 100)
+	flags_inv = HIDEJUMPSUIT|HIDETAIL|HIDEGLOVES|HIDESHOES

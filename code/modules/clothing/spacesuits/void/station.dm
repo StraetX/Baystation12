@@ -227,6 +227,13 @@
 
 //inf, was     armor = list(melee = 70, bullet = 20, laser = 30, energy = 5, bomb = 35, bio = 100, rad = 5)
 
+/obj/item/clothing/head/helmet/space/void/um_helm
+	name = "A helmet for powerarmor"
+	desc = "Angry looking helm."
+	icon_state = "um_helm"
+	item_state = "um_helm"
+	armor = list(melee = 80, bullet = 65, laser = 65, energy = 35, bomb = 60, bio = 100, rad = 100) //jog
+
 /*inf	sprite_sheets = list(
 		SPECIES_SKRELL = 'icons/mob/species/skrell/onmob_head_skrell.dmi',
 		)
@@ -244,6 +251,17 @@
 
 /obj/item/clothing/suit/space/void/security/alt/prepared
 	helmet = /obj/item/clothing/head/helmet/space/void/security/alt
+	boots = /obj/item/clothing/shoes/magboots
+
+/obj/item/clothing/suit/space/void/umarmor
+	name = "Ultramarine powerarmor"
+	desc = "The best powerarmor with gold aquila from imperium"
+	icon_state = "umarmor"
+	item_state = "umarmor"
+	armor = list(melee = 80, bullet = 65, laser = 65, energy = 35, bomb = 60, bio = 100, rad = 100) //jog
+
+/obj/item/clothing/suit/space/void/umarmor/prepared
+	helmet = /obj/item/clothing/head/helmet/space/void/um_helm
 	boots = /obj/item/clothing/shoes/magboots
 
 //Atmospherics

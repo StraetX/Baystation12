@@ -31,6 +31,11 @@
 	damage = 40
 	armor_penetration = 20
 
+/obj/item/projectile/beam/lasgun
+	fire_sound='sound/weapons/Lasgun.ogg'
+	damage = 45
+	armor_penetration = 22
+
 /obj/item/projectile/beam/heavylaser
 	name = "heavy laser"
 	icon_state = "heavylaser"
