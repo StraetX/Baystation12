@@ -1,6 +1,5 @@
 /decl/maneuver/leap
 	name = "leap"
-	stamina_cost = 10
 	reflexive_modifier = 1.5
 
 /decl/maneuver/leap/perform(var/mob/living/user, var/atom/target, var/strength, var/reflexively = FALSE)
@@ -30,7 +29,6 @@
 		. = (can_leap_distance > 0 && (!target || get_dist(user, target) <= can_leap_distance))
 
 /decl/maneuver/leap/spider
-	stamina_cost = 0
 
 /decl/maneuver/leap/spider/show_initial_message(var/mob/living/user, var/atom/target)
 	user.visible_message(SPAN_WARNING("\The [user] reels back and prepares to launch itself at \the [target]!"))

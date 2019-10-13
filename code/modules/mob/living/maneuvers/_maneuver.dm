@@ -2,7 +2,6 @@
 	var/name = "unnamed"
 	var/delay = 2 SECONDS
 	var/cooldown = 10 SECONDS
-	var/stamina_cost = 10
 	var/reflexive_modifier = 1
 
 /decl/maneuver/proc/can_be_used_by(var/mob/living/user, var/atom/target, var/silent = FALSE)
@@ -24,10 +23,6 @@
 		if(!silent)
 			to_chat(user, SPAN_WARNING("You cannot maneuver again for another [Floor((user.last_special - world.time)*0.1)] second\s."))
 		return FALSE
-	if(user.get_stamina() < stamina_cost)
-		if(!silent)
-			to_chat(user, SPAN_WARNING("You are too exhausted to maneuver right now."))
-		return FALSE
 	return TRUE
 
 /decl/maneuver/proc/show_initial_message(var/mob/user, var/atom/target)
@@ -41,5 +36,3 @@
 		. = (!delay || reflexively || (do_after(user, delay) && can_be_used_by(user, target)))
 		if(cooldown)
 			user.last_special = world.time + cooldown
-		if(stamina_cost)
-			user.adjust_stamina(stamina_cost)

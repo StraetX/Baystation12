@@ -337,11 +337,3 @@
 	if(default_run_intent && move_intent != default_run_intent)
 		set_move_intent(default_run_intent)
 
-/mob/proc/can_sprint()
-	return FALSE
-
-/mob/proc/adjust_stamina(var/amt)
-	return
-
-/mob/proc/get_stamina()
-	return 100
