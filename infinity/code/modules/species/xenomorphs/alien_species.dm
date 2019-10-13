@@ -2,7 +2,6 @@
 /datum/species/xenos
 	name = SPECIES_XENO
 	name_plural = "Xenophages"
-
 	unarmed_types = list(/datum/unarmed_attack/claws/strong, /datum/unarmed_attack/bite/strong)
 	hud_type = /datum/hud_data/alien
 	rarity_value = 3
@@ -19,7 +18,7 @@
 	damage_mask =     null //no icons
 	blood_mask =      null //no icons
 
-	darksight_range = 8
+	darksight_range = 10
 	darksight_tint = DARKTINT_GREAT
 
 	antaghud_offset_x = -16
@@ -68,7 +67,8 @@
 	breath_type = null
 	poison_types = null
 
-	vision_flags = SEE_SELF|SEE_MOBS
+	vision_flags = SEE_SELF|SEE_MOBS|SEE_TURFS|SEE_OBJS
+//	H.set_see_in_dark((H.sight == (SEE_TURFS|SEE_MOBS|SEE_OBJS)) ? 8 : min(H.getDarkvisionRange() + H.equipment_darkness_modifier, 8))
 
 	has_organ = list(
 		BP_EYES =     /obj/item/organ/internal/eyes/xeno,
@@ -115,6 +115,14 @@
 
 	move_trail = /obj/effect/decal/cleanable/blood/tracks/claw
 
+/datum/species/xenos/proc/IsAdvancedToolUser()
+	return 0
+
+/datum/species/xenos/IsAdvancedToolUser(var/silent)
+	if(has_fine_manipulation(src))
+		return 1
+	return 0
+
 /datum/species/xenos/drone
 	name = "Xenophage Drone"
 
@@ -127,6 +135,7 @@
 	base_color = "#000d1a"
 	icobase = 'infinity/icons/mob/human_races/species/xenophage/body_drone.dmi'
 	deform =  'infinity/icons/mob/human_races/species/xenophage/body_drone.dmi'
+	move_intents = list(/decl/move_intent/run, /decl/move_intent/walk)
 
 	has_organ = list(
 		BP_EYES =     /obj/item/organ/internal/eyes/xeno,
@@ -140,6 +149,7 @@
 		)
 
 	inherent_verbs = list(
+		/mob/living/proc/ventcrawl,
 		/mob/living/carbon/human/proc/plant,
 		/mob/living/carbon/human/proc/transfer_plasma,
 		/mob/living/carbon/human/proc/evolve,
@@ -162,6 +172,7 @@
 
 	icobase = 'infinity/icons/mob/human_races/species/xenophage/body_hunter.dmi'
 	deform =  'infinity/icons/mob/human_races/species/xenophage/body_hunter.dmi'
+	move_intents = list(/decl/move_intent/run, /decl/move_intent/walk)
 
 //	brute_mod =     0.8
 //	burn_mod =      0.8
@@ -178,6 +189,7 @@
 		)
 
 	inherent_verbs = list(
+		/mob/living/proc/ventcrawl,
 		/mob/living/carbon/human/proc/plant,
 		/mob/living/carbon/human/proc/pry_open,
 		/mob/living/carbon/human/proc/tackle,
@@ -199,6 +211,7 @@
 	total_health = 220
 	icobase = 'infinity/icons/mob/human_races/species/xenophage/body_sentinel.dmi'
 	deform =  'infinity/icons/mob/human_races/species/xenophage/body_sentinel.dmi'
+	move_intents = list(/decl/move_intent/run, /decl/move_intent/walk)
 
 	weeds_plasma_rate = 15
 	slowdown = 0.5
@@ -214,6 +227,7 @@
 		)
 
 	inherent_verbs = list(
+		/mob/living/proc/ventcrawl,
 		/mob/living/carbon/human/proc/plant,
 		/mob/living/carbon/human/proc/pry_open,
 		/mob/living/carbon/human/proc/tackle,
@@ -243,6 +257,7 @@
 
 	icobase = 'infinity/icons/mob/human_races/species/xenophage/body_queen.dmi'
 	deform =  'infinity/icons/mob/human_races/species/xenophage/body_queen.dmi'
+	move_intents = list(/decl/move_intent/walk)
 
 	has_organ = list(
 		BP_EYES =     /obj/item/organ/internal/eyes/xeno,
