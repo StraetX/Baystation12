@@ -634,8 +634,12 @@ var/global/list/possible_changeling_IDs = list("Alpha","Beta","Gamma","Delta","E
 		C.set_see_in_dark(8)
 		C.change_light_colour(DARKTINT_GOOD)
 	else
-		eyes.innate_flash_protection = 0
 		C.stop_sight_update = 0
+		eyes.innate_flash_protection = 0
+		C.set_sight(0)
+		C.set_see_in_dark(0)
+		C.change_light_colour(DARKTINT_NONE)
+
 
 	if(!C.stop_sight_update)
 		to_chat(C, SPAN_LING("We return to normal."))

@@ -2,9 +2,10 @@ GLOBAL_DATUM_INIT(xenomorphs, /datum/antagonist/xenos, new)
 
 /datum/antagonist/xenos
 	id = MODE_XENOMORPH
+	landmark_id = "Xenomorph"
 	role_text = "Xenophage"
 	role_text_plural = "Xenophages"
-	flags = ANTAG_OVERRIDE_MOB | ANTAG_RANDSPAWN | ANTAG_OVERRIDE_JOB
+	flags = ANTAG_OVERRIDE_MOB | ANTAG_RANDSPAWN | ANTAG_OVERRIDE_JOB | ANTAG_SUSPICIOUS | ANTAG_VOTABLE
 	mob_path = /mob/living/carbon/alien/larva
 	welcome_text = "<span class='changeling'><b>ВСТУПЛЕНИЕ</b>:<br>\
 	Вы - 'неизвестна&#255; форма жизни', как думает Экипаж. Чтобы общатьс&#255; со своими <b>СЕСТРАМИ</b> \
@@ -58,15 +59,16 @@ GLOBAL_DATUM_INIT(xenomorphs, /datum/antagonist/xenos, new)
 /datum/antagonist/xenos/attempt_random_spawn()
 	if(config.aliens_allowed) ..()
 
-/*
+
 /datum/antagonist/xenos/create_objectives(var/datum/mind/player)
 	if(!..())
 		return
 	player.objectives += new /datum/objective/survive()
-*/
 
+/*
 /datum/antagonist/xenos/create_global_objectives()
 	if(!..())
 		return
 	global_objectives |= new /datum/objective/survive
 	return 1
+*/

@@ -2,7 +2,7 @@
 Используется стандартный билд BayStation12 с небольшими модификациями.<br>
 Baystation12 Вики - https://wiki.baystation12.net/ <br>
 Вики Инфинити - https://wiki.infinity-ss13.info/ <br>
-Наш дискорд сервер - https://discord.gg/pKHqs6e/ <br>
+Наш дискорд сервер - https://discord.gg/d38Sd4U <br>
 
 <span style="color: #cc0000;">Q: У меня игра дергается!</span>
 <span style="color: #009933;">A: Зайдите во вкладку настройки Вашего персонажа. Выберите раздел "Global". Выставьте "Client FPS" в диапозоне от 70 до 90. Желательно делать это в процессе игры (за персонажа), чтобы был наглядный результат.</span>

@@ -291,7 +291,7 @@ Class Procs:
 	if(!CanPhysicallyInteract(user))
 		return FALSE // The interactions below all assume physical access to the machine. If this is not the case, we let the machine take further action.
 //inf ahead
-	if(ishuman(user))
+	if(ishuman(user)|isalien(user))
 		var/mob/living/carbon/human/H = user
 		if(H.species.can_shred(H)) //it sounds more like "fuck your hard code, bay"
 			if((. = physical_attack_hand(user))) //
