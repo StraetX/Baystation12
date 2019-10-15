@@ -387,6 +387,15 @@ Keeping them simple for now, just spawning with basic EC uniforms, and pretty mu
 	uniform = /obj/item/clothing/under/rank/chaplain
 	id_type = /obj/item/weapon/card/id/sierra/crew/service/chaplain
 
+/decl/hierarchy/outfit/job/sierra/crew/service/Clown
+	name = OUTFIT_JOB_NAME("Clown - Sierra")
+	shoes = /obj/item/clothing/shoes/clown_shoes
+	mask = /obj/item/clothing/mask/gas/clown_hat
+	l_ear =  /obj/item/device/radio/headset
+	uniform = /obj/item/clothing/under/rank/clown
+	l_pocket = /obj/item/weapon/bikehorn
+	flags = OUTFIT_HAS_BACKPACK|OUTFIT_RESET_EQUIPMENT
+
 	///////////////
 	//EXPLORATION//
 	///////////////
