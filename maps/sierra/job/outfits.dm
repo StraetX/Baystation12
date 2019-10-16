@@ -394,7 +394,11 @@ Keeping them simple for now, just spawning with basic EC uniforms, and pretty mu
 	l_ear =  /obj/item/device/radio/headset
 	uniform = /obj/item/clothing/under/rank/clown
 	l_pocket = /obj/item/weapon/bikehorn
+	r_pocket = /obj/item/weapon/reagent_containers/spray/waterflower
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_RESET_EQUIPMENT
+	backpack_contents = list(/obj/item/device/camera/tvcamera = 1,
+	/obj/item/weapon/storage/fancy/crayons = 1,
+	/obj/item/weapon/pen/crayon/rainbow = 1)
 
 	///////////////
 	//EXPLORATION//
