@@ -143,7 +143,7 @@
 						SKILL_VIROLOGY     = SKILL_ADEPT,
 						SKILL_CHEMISTRY    = SKILL_ADEPT,
 						SKILL_DEVICES      = SKILL_ADEPT)
-/datum/job/janitor
+/datum/job/Clown
 	title = "Clown"
 	department = "Service"
 	department_flag = SRV
