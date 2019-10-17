@@ -176,7 +176,7 @@
 	if(.)
 		H.implant_loyalty(H)
 
-/datum/job/Clown
+/datum/job/clown
 	title = "Clown"
 	department = "Service"
 	department_flag = SRV
