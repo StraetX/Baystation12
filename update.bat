@@ -4,4 +4,4 @@ git pull origin master
 
 dm.exe baystation12.dme
 
-dreamdaemon baystation12.dmb 7721 -trusted -invisible
+start dreamdaemon baystation12.dmb 7721 -trusted -invisible
