@@ -166,7 +166,7 @@
 	return
 
 /mob/living/carbon/human/proc/neurotoxin(mob/target as mob in oview())
-	set name = "Spit Neurotoxin (50)"
+	set name = "Spit Neurotoxin (150)"
 	set desc = "Spits neurotoxin at someone, paralyzing them for a short time if they are not wearing protective gear."
 	set category = "Abilities"
 
@@ -177,7 +177,7 @@
 
 	if(!(isxenomorph(target) || isalien(target)))
 		visible_message("<span class='warning'>[src] spits neurotoxin at [target]!</span>", "<span class='alium'>You spit neurotoxin at [target].</span>")
-		if(!check_alien_ability(50,0,BP_ACID) && !is_ventcrawling)
+		if(!check_alien_ability(150,0,BP_ACID) && !is_ventcrawling)
 			return
 
 		var/obj/item/projectile/energy/neurotoxin/A = new /obj/item/projectile/energy/neurotoxin(usr.loc)
@@ -203,8 +203,8 @@
 
 	visible_message("<span class='warning'><B>[src] vomits up a thick purple substance and begins to shape it!</B></span>", "<span class='alium'>You shape a [choice].</span>")
 	switch(choice)
-		if("resin door")
-			new /obj/machinery/door/unpowered/simple/resin(loc)
+//		if("resin door")
+//			new /obj/machinery/door/unpowered/simple/resin(loc)
 		if("resin wall")
 			new /obj/structure/alien/resin/wall(loc)
 		if("resin membrane")

@@ -8,7 +8,7 @@
 	health_hud_intensity = 1
 
 	slowdown = 0
-	total_health = 100
+	total_health = 150
 
 	natural_armour_values = list(melee = 30, bullet = 28, laser = 25, energy = 0, bomb = 0, bio = 100, rad = 100)
 
@@ -154,6 +154,7 @@
 		/mob/living/carbon/human/proc/transfer_plasma,
 		/mob/living/carbon/human/proc/evolve,
 		/mob/living/carbon/human/proc/resin,
+		/mob/living/carbon/human/proc/neurotoxin,
 		/mob/living/carbon/human/proc/corrosive_acid
 		)
 /*

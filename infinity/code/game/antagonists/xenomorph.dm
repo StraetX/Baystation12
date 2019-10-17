@@ -6,7 +6,7 @@ GLOBAL_DATUM_INIT(xenomorphs, /datum/antagonist/xenos, new)
 	role_text = "Xenophage"
 	role_text_plural = "Xenophages"
 	flags = ANTAG_OVERRIDE_MOB | ANTAG_RANDSPAWN | ANTAG_OVERRIDE_JOB | ANTAG_SUSPICIOUS | ANTAG_VOTABLE
-	mob_path = /mob/living/carbon/alien/larva
+	mob_path = /mob/living/carbon/human/xdrone
 	welcome_text = "<span class='changeling'><b>ВСТУПЛЕНИЕ</b>:<br>\
 	Вы - 'неизвестна&#255; форма жизни', как думает Экипаж. Чтобы общатьс&#255; со своими <b>СЕСТРАМИ</b> \
 	как через рацию, используйте префикс ',a' (с английской буквой).<br>\
