@@ -163,14 +163,12 @@
 	trade_flags = TRADER_MONEY
 	possible_wanted_items = list()
 
-	possible_trading_items = list(	/obj/item/clothing/suit/space/void/umarmor/prepared = TRADER_SUBTYPES_ONLY,
-									/obj/item/clothing/suit/storage/vest/commisarcoat = TRADER_SUBTYPES_ONLY,
-									/obj/item/clothing/head/commisarcap = TRADER_SUBTYPES_ONLY,
-									/obj/item/weapon/gun/energy/lasgun = TRADER_SUBTYPES_ONLY,
-									/obj/item/clothing/head/radiation/AM_hood = TRADER_SUBTYPES_ONLY,
-									/obj/item/clothing/suit/radiation/AM_suit = TRADER_SUBTYPES_ONLY
-
-									) //Probably see about getting some more wizard based shit
+	possible_trading_items = list(	/obj/item/clothing/suit/space/void/umarmor/prepared = TRADER_THIS_TYPE,
+									/obj/item/clothing/suit/storage/vest/commisarcoat = TRADER_THIS_TYPE,
+									/obj/item/clothing/head/commisarcap = TRADER_THIS_TYPE,
+									/obj/item/weapon/gun/energy/lasgun = TRADER_THIS_TYPE,
+									/obj/item/clothing/head/radiation/AM_hood = TRADER_THIS_TYPE,
+									/obj/item/clothing/suit/radiation/AM_suit = TRADER_THIS_TYPE)
 
 	speech = list("hail_generic"     = "Hello from Imperium, I hope you are not a heretic",
 				"hail_Golem"         = "Holly Terra! You can speak. So so. Let's do a quick buisness, or I will have a problem",
