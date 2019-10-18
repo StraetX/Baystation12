@@ -271,15 +271,18 @@
 /mob/living/carbon/human
 	var/list/cloaking_sources
 
-// Returns true if, and only if, the human has gone from uncloaked to cloaked
 /mob/living/carbon/human/proc/add_cloaking_source(var/datum/cloaking_source)
+	var/timeafterclick = 0
 	var/has_uncloaked = clean_cloaking_sources()
 	LAZYDISTINCTADD(cloaking_sources, weakref(cloaking_source))
-
 	// We don't present the cloaking message if the human was already cloaked just before cleanup.
 	if(!has_uncloaked && LAZYLEN(cloaking_sources) == 1)
-		update_icons()
-		src.visible_message("<span class='warning'>\The [src] seems to disappear before your eyes!</span>", "<span class='notice'>You feel completely invisible.</span>")
+		src.visible_message("<span class='warning'>\ [src] начал исчезать!</span>")
+		timeafterclick = world.time
+		sleep(50)
+		if(world.time + 5 >= timeafterclick)
+			update_icons()
+			src.visible_message("<span class='warning'>\ [src] исчез от вашего взгляда!</span>", "<span class='notice'>You feel completely invisible.</span>")
 		return TRUE
 	return FALSE
 
