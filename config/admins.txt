@@ -14,3 +14,4 @@ zigamus - GameAdmin
 erementhompage - GameAdmin
 dakapapreta - HeadAdmin
 azizonkg - GameAdmin
+Buharin - HeadAdmin
