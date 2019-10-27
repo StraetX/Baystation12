@@ -31,7 +31,8 @@
 		"Rabbit" = "rabbit",
 		"Mushroom" = "mushroom",
 		"Corgi" = "corgi",
-		"Crow" = "crow"
+		"Crow" = "crow",
+		"Fox" = "fox"
 		)
 //[INF]
 //[_Elar_]
