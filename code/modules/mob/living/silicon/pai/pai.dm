@@ -10,7 +10,7 @@
 	can_pull_size = ITEM_SIZE_SMALL
 	can_pull_mobs = MOB_PULL_SMALLER
 
-	holder_type = /obj/item/weapon/holder
+	holder_type = /obj/item/weapon/holder/pai
 	idcard = /obj/item/weapon/card/id
 	silicon_radio = null // pAIs get their radio from the card they belong to.
 
@@ -414,7 +414,9 @@
 	if(.)
 		var/obj/item/weapon/holder/H = .
 		if(istype(H))
+			H.icon = 'icons/obj/objects.dmi'
 			H.icon_state = "pai-[icon_state]"
+			H.item_state = "pai-[icon_state]"
 			grabber.update_inv_l_hand()
 			grabber.update_inv_r_hand()
 

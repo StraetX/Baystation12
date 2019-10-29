@@ -122,6 +122,11 @@ var/list/holder_mob_icon_cache = list()
 /obj/item/weapon/holder/borer
 	origin_tech = list(TECH_BIO = 6)
 
+/obj/item/weapon/holder/pai
+	name = "pAI"
+	desc = "It's a little robot."
+	icon_state = "pai"
+
 //need own subtype to work with recipies
 /obj/item/weapon/holder/corgi
 	origin_tech = list(TECH_BIO = 4)
