@@ -49,22 +49,35 @@
 		return 0
 
 	var/effective_armor = (armor - armor_pen)/100
-	var/fullblock = effective_armor //inf-dev
-	//this makes it so that X armour blocks X% damage, when including the chance of hard block.
-	//I double checked and this formula will also ensure that a higher effective_armor
-	//will always result in higher (non-fullblock) damage absorption too, which is also a nice property
-	//In particular, blocked will increase from 0 to 50 as effective_armor increases from 0 to 0.999 (if it is 1 then we never get here because ofc)
-	//and the average damage absorption = (blocked/100)*(1-fullblock) + 1.0*(fullblock) = effective_armor
-	var/blocked
-#ifndef UNIT_TEST // Removes the probablity of full blocks for the purposes of testing innate armor.
-	if(fullblock >= 1  || prob(fullblock*100))
-#else
-	if(fullblock >= 1)
-#endif
-		blocked = 1
+
+	if (key == "melee" || key == "rad" || key =="bio" || key == "bomb")
+		if (armor_pen>= armor)
+			return 0
+
+		var/blocked	
+			
+	#ifndef UNIT_TEST // Removes the probablity of full blocks for the purposes of testing innate armor.
+		if(effective_armor >= 1  || prob(effective_armor * 100))
+	#else
+		if(effective_armor >= 1)
+	#endif
+			blocked = 1
+		else
+			blocked = (effective_armor - (effective_armor ** 2))/(1 - (effective_armor ** 2))
+		return blocked
+
 	else
-		blocked = (effective_armor - (fullblock * fullblock))/(1 - (fullblock * fullblock))
-	return blocked
+		if(armor_pen > armor)
+			return 0
+		else
+			switch((armor & 20) - (armor_pen % 20))
+				if(0) return effective_armor * 2.5
+				if(1) return 70
+				if(2) return 90
+				if(3) return 95
+				else return 100
+		
+
 
 /datum/extension/armor/proc/get_value(key)
 	return min(armor_values[key], 100)
