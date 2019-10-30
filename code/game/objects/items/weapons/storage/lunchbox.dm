@@ -105,3 +105,11 @@
 /obj/item/weapon/storage/lunchbox/syndicate/filled
 	filled = TRUE
 
+/obj/item/weapon/storage/lunchbox/taer
+	name = "Taer's lunchbox"
+	icon_state = "lunchbox_taer"
+	item_state = "toolbox_blue"
+	desc = "A little lunchbox. With Gachi Taer on it"
+
+/obj/item/weapon/storage/lunchbox/taer/filled
+	filled = TRUE

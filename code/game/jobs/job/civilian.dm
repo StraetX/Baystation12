@@ -175,3 +175,15 @@
 	. = ..()
 	if(.)
 		H.implant_loyalty(H)
+
+/datum/job/clown
+	title = "Clown"
+	department = "Service"
+	department_flag = SRV
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the head of personnel"
+	access = list(access_maint_tunnels)
+	minimal_access = list(access_maint_tunnels)
+	alt_titles = list("Doctor Honkers")
+	outfit_type = /decl/hierarchy/outfit/clown

@@ -13,7 +13,7 @@
 	origin_tech = list(TECH_COMBAT = 2)
 	attack_verb = list("beaten")
 	base_parry_chance = 30
-	var/stunforce = 0
+	var/stunforce = 5
 	var/agonyforce = 30
 	var/status = 0		//whether the thing is on or not
 	var/obj/item/weapon/cell/bcell
@@ -127,7 +127,7 @@
 /obj/item/weapon/melee/baton/attack(mob/M, mob/user)
 	if(status && (MUTATION_CLUMSY in user.mutations) && prob(50))
 		to_chat(user, "<span class='danger'>You accidentally hit yourself with the [src]!</span>")
-		user.Weaken(30)
+		user.Weaken(stunforce*3)
 		deductcharge(hitcost)
 		return
 	return ..()

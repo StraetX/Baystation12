@@ -218,6 +218,11 @@ var/global/serials = list()
 	if(!user || !target) return
 	if(target.z != user.z) return
 
+//[INF]
+	if(istype(target, /obj/structure/catwalk))
+		target = target.loc
+//[/INF]
+
 	add_fingerprint(user)
 
 	if((!waterproof && submerged()) || !special_check(user))

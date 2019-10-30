@@ -46,4 +46,4 @@
 /datum/antag_skill_setter/alien
 	nm_type = /datum/nano_module/skill_ui/antag
 	default_value = SKILL_BASIC
-	base_skill_list = list(SKILL_COMBAT = SKILL_PROF, SKILL_HAULING = SKILL_PROF, SKILL_EVA = SKILL_PROF)  //Format: list(path = value).
+	base_skill_list = list(SKILL_COMBAT = SKILL_PROF, SKILL_HAULING = SKILL_PROF)  //Format: list(path = value).

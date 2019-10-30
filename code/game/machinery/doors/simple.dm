@@ -252,3 +252,8 @@
 /obj/machinery/door/unpowered/simple/resin
 	autoclose = 1
 	normalspeed = 0
+
+/obj/machinery/door/unpowered/simple/resin/open(var/forced = 0, mob/user as mob)
+	if(isalien(user))
+		for(..())
+			..()

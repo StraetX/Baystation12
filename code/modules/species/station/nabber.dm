@@ -12,6 +12,8 @@
 
 	antaghud_offset_y = 8
 
+	slowdown = 0.5
+	move_intents = list(/decl/move_intent/walk)
 	assisted_langs = list(LANGUAGE_GUTTER, LANGUAGE_UNATHI_SINTA, LANGUAGE_SKRELLIAN, LANGUAGE_HUMAN_EURO, LANGUAGE_EAL, LANGUAGE_HUMAN_RUSSIAN)
 	min_age = 8
 	max_age = 40

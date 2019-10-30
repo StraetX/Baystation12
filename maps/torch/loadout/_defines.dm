@@ -31,7 +31,7 @@
 #define SUPPLY_ROLES list(/datum/job/qm, /datum/job/cargo_tech)
 
 //For members of the service department
-#define SERVICE_ROLES list(/datum/job/janitor, /datum/job/chef, /datum/job/crew, /datum/job/bartender, /datum/job/chaplain)
+#define SERVICE_ROLES list(/datum/job/janitor, /datum/job/chef, /datum/job/crew, /datum/job/bartender, /datum/job/chaplain, /datum/job/clown)
 
 //For members of the research department and jobs that are scientific
 #define RESEARCH_ROLES list(/datum/job/rd, /datum/job/scientist, /datum/job/mining, /datum/job/scientist_assistant, /datum/job/assistant, /datum/job/nt_pilot, /datum/job/senior_scientist, /datum/job/roboticist, /datum/job/biomech)
