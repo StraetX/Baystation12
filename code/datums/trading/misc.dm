@@ -154,3 +154,38 @@
 								/obj/item/weapon/material/scythe       = TRADER_THIS_TYPE,
 								/obj/item/weapon/material/star         = TRADER_THIS_TYPE,
 								/obj/item/weapon/material/twohanded/baseballbat = TRADER_THIS_TYPE)
+
+/datum/trader/ship/roguetrader
+	name = "Rogue trader"
+	origin = "Imperium noble trader"
+	possible_origins = list("Lion of Macrage Ship", "Angels of Baal ship", "Honor of Konor Ship", "Spears of of Holly Terra Ship")
+	name_language = TRADER_DEFAULT_NAME
+	trade_flags = TRADER_MONEY
+	possible_wanted_items = list()
+
+	possible_trading_items = list(	/obj/item/clothing/suit/space/void/umarmor/prepared = TRADER_THIS_TYPE,
+									/obj/item/clothing/suit/storage/vest/commisarcoat = TRADER_THIS_TYPE,
+									/obj/item/clothing/head/commisarcap = TRADER_THIS_TYPE,
+									/obj/item/weapon/gun/energy/lasgun = TRADER_THIS_TYPE,
+									/obj/item/clothing/head/radiation/AM_hood = TRADER_THIS_TYPE,
+									/obj/item/clothing/suit/radiation/AM_suit = TRADER_THIS_TYPE)
+
+	speech = list("hail_generic"     = "Hello from Imperium, I hope you are not a heretic",
+				"hail_Golem"         = "Holly Terra! You can speak. So so. Let's do a quick buisness, or I will have a problem",
+				"hail_deny"          = "GO AWAY, YOU, THE HERETIC! ",
+
+				"trade_complete"     = "For the name of Emperor we do this trade!",
+				"trade_no_goods"     = "No No No! Only cash.",
+				"trade_blacklisted"  = "Inquisition banned this items.",
+				"trade_not_enough"   = "You are not a Tyranids. So do a better calculeted",
+				"how_much"           = "Hm.. for this ITEM I wanna VALUE thalers. No more, no less.",
+				"what_want"          = "More cash from you.",
+
+				"compliment_deny"    = "I hope you will meet a Tyranid.",
+				"compliment_accept"  = "Ho-ho-ho. Emperor protect",
+				"insult_good"        = "I don't will answer this",
+				"insult_bad"         = "I have a lot of friends from Inquisition. ",
+
+				"bribe_refusal"  = "NoNoNo. We have a planned warp jump..",
+				"bribe_accept"   = "We will do a warp jump latter, my friend.",
+				)

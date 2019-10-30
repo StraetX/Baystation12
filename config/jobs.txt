@@ -23,7 +23,7 @@ Quartermaster=1
 Shaft Miner=3
 
 Warden=1
-Detective=1
+Detective=2
 Security Officer=5
 
 Assistant=-1
@@ -32,6 +32,7 @@ Cargo Technician=3
 Chaplain=1
 Lawyer=2
 Librarian=1
+Clown=1
 
 AI=1
 Cyborg=1

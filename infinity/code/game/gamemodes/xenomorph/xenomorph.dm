@@ -26,7 +26,7 @@
 	Способность <i>Infest</i> сделает человека рабом вашего Уль&#255;. Спросите их согласие в LOOC перед обращением.<br>\
 	<b>При&#255;тной игры!</b></span>"
 	config_tag = "XENOMORPH"
-	required_players = 1
-	required_enemies = 1
+	required_players = 15
+	required_enemies = 2
 	end_on_antag_death = 0
 	antag_tags = list(MODE_XENOMORPH)

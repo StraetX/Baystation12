@@ -108,7 +108,7 @@
 /obj/item/projectile/energy/neurotoxin
 	name = "neuro"
 	icon_state = "neurotoxin"
-	damage = 5
+	damage = 35
 	damage_type = BURN
 	weaken = 6
 	agony = 20

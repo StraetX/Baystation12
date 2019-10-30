@@ -2438,7 +2438,7 @@
 "aUT" = (/obj/machinery/atmospherics/pipe/simple/hidden/green,/turf/simulated/floor/reinforced,/area/thruster/d1port)
 "aUU" = (/turf/simulated/floor/reinforced,/area/thruster/d1port)
 "aUV" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 5},/turf/simulated/floor/reinforced,/area/thruster/d1port)
-"aUW" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/turf/simulated/floor/reinforced,/area/thruster/d1port)
+"aUW" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/effect/landmark/start{name = "Xenomorph"},/turf/simulated/floor/reinforced,/area/thruster/d1port)
 "aUX" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/blue,/turf/simulated/floor/reinforced,/area/thruster/d1port)
 "aUY" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/reinforced,/area/thruster/d1port)
 "aUZ" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 9},/turf/simulated/floor/reinforced,/area/thruster/d1port)

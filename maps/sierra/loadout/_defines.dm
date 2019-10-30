@@ -93,7 +93,7 @@
 
 //For members of the service department
 #define SERVICE_ROLES list(\
-	/datum/job/janitor, /datum/job/chef, /datum/job/bartender)
+	/datum/job/janitor, /datum/job/chef, /datum/job/bartender, /datum/job/clown)
 
 //For members of the research department and jobs that are scientific
 #define RESEARCH_ROLES list(\

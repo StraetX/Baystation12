@@ -40,6 +40,7 @@
 
 /obj/structure/closet/secure_closet/hos/sierra/WillContain()
 	return list(
+		/obj/item/clothing/head/beret/sec/corporate/hos,
 		/obj/item/clothing/suit/armor/pcarrier/medium/nt,
 		/obj/item/clothing/suit/storage/hoscoat,
 		/obj/item/clothing/suit/armor/hos,
@@ -147,6 +148,7 @@
 
 /obj/structure/closet/secure_closet/security/sierra/WillContain()
 	return list(
+		/obj/item/clothing/under/rank/security/corp,
 		/obj/item/clothing/suit/armor/pcarrier/medium/nt,
 		/obj/item/clothing/head/helmet/nt,
 		/obj/item/device/radio/headset/headset_sec,
