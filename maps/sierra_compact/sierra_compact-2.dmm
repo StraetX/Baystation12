@@ -35841,15 +35841,6 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/plating,
 /area/engineering/auxpower)
-"byt" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/plating,
-/area/engineering/auxpower)
 "byu" = (
 /obj/machinery/access_button{
 	command = "cycle_interior";
@@ -36936,18 +36927,6 @@
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
-	},
-/turf/simulated/floor/plating,
-/area/engineering/auxpower)
-"bAo" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/catwalk,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/engineering/auxpower)
@@ -71075,7 +71054,7 @@ aYw
 aYw
 aYw
 aLY
-bAo
+aSv
 bAD
 byd
 byH
@@ -72700,7 +72679,7 @@ bzk
 bzD
 bzQ
 bAa
-bAo
+aSv
 bAD
 bAR
 bBa
