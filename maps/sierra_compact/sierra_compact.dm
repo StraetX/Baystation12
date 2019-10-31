@@ -124,10 +124,10 @@
 	#include "loadout/~defines.dm"
 
 //	#include "sierra_compact-1.dmm"
+	#include "sierra_compact-1.dmm"
 	#include "sierra_compact-2.dmm"
 	#include "sierra_compact-3.dmm"
 	#include "sierra_compact-4.dmm"
-	#include "sierra_compact-5.dmm"
 	#include "../away/empty.dmm"
 
 	#include "../away_inf/yacht/yacht.dm"
