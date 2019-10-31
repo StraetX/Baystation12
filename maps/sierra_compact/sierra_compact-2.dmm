@@ -56987,10 +56987,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/xenobiology/xenoflora)
-"cfS" = (
-/obj/machinery/atmospherics/valve,
-/turf/simulated/floor/tiled/freezer,
-/area/rnd/xenobiology/xenoflora)
 "cfT" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/solar)
@@ -87386,10 +87382,10 @@ ccN
 ccV
 cdA
 cea
-cfS
+ceE
 cfc
 cfy
-cfS
+ceE
 wWk
 ccI
 bsn
@@ -87588,10 +87584,10 @@ ccN
 ccW
 cdB
 cea
-cfS
+ceE
 cfc
 cfy
-cfS
+ceE
 wWk
 ccI
 bsn
