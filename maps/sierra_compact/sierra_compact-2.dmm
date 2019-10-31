@@ -4959,7 +4959,7 @@
 "sgS" = (/turf/simulated/wall/prepainted,/area/security/sierra/suits)
 "uFv" = (/turf/simulated/wall/r_wall/hull,/area/security/brig)
 "uYf" = (/turf/simulated/wall/r_wall/hull,/area/maintenance/firstdeck/foreport)
-"vtr" = (/obj/effect/landmark/map_data{height = 3},/turf/space,/area/space)
+"vtr" = (/obj/effect/landmark/map_data{height = 2},/turf/space,/area/space)
 "whn" = (/obj/machinery/suit_storage_unit/security/alt,/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/red/half{dir = 1},/obj/effect/floor_decal/corner/blue/border,/obj/machinery/camera/network/security{c_tag = "Security - Suits Storage"; dir = 1},/turf/simulated/floor/tiled/steel_grid,/area/security/sierra/suits)
 
 (1,1,1) = {"
