@@ -6,12 +6,12 @@
 
 	load_legacy_saves = TRUE
 
-	station_levels = list(1,2,3)
-	admin_levels = list(4,5)
-	empty_levels = list(6)
-	accessible_z_levels = list("1"=1,"2"=1,"3"=1,"6"=30)
-	overmap_size = 35
-	overmap_event_areas = 34
+	station_levels = list(1,2)
+	admin_levels = list(3,4)
+	empty_levels = list(5)
+	accessible_z_levels = list("1"=1,"2"=1,"5"=30)
+	overmap_size = 64
+	overmap_event_areas = 68
 	usable_email_tlds = list("freemail.net")
 
 	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
@@ -31,7 +31,7 @@
 
 	default_law_type = /datum/ai_laws/nanotrasen
 	use_overmap = 1
-	num_exoplanets = 0
+	num_exoplanets = 1
 	planet_size = list(129,129)
 
 	playable = 1
