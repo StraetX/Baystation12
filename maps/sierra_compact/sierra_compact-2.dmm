@@ -36530,18 +36530,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
-"bzN" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/catwalk,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/firstdeck/centralstarboard)
 "bzO" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -71218,7 +71206,7 @@ aLY
 aLY
 bzf
 aev
-bzN
+byM
 bzX
 bzW
 bAB
@@ -71420,7 +71408,7 @@ aqT
 byI
 bzg
 bzg
-bzN
+byM
 bxZ
 bAk
 bAC
