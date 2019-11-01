@@ -1753,6 +1753,10 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/storage/tech)
 "adA" = (
@@ -1992,6 +1996,10 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/storage/tech)
 "adT" = (
@@ -2036,6 +2044,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/storage/tech)
 "adW" = (
@@ -2063,6 +2075,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/techmaint,
 /area/storage/tech)
 "adZ" = (
@@ -3840,6 +3853,9 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	req_access = newlist()
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/compactor)
@@ -10911,6 +10927,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/compactor)
 "ayT" = (
@@ -12724,6 +12743,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
 "aCt" = (
@@ -12789,6 +12812,10 @@
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
 	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
@@ -13602,6 +13629,10 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/obj/structure/disposalpipe/junction{
+	dir = 4;
+	icon_state = "pipe-j2"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
 "aEb" = (
@@ -17619,6 +17650,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
 "aMi" = (
@@ -20638,6 +20673,9 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	req_access = newlist()
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/compactor)
@@ -24324,6 +24362,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/storage/tech)
 "aYM" = (
@@ -26151,6 +26192,7 @@
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
 "bch" = (
@@ -59791,6 +59833,23 @@
 "oFM" = (
 /turf/simulated/wall/prepainted,
 /area/security/sierra/equipment)
+"oGf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/storage/tech)
 "oKF" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access = newlist()
@@ -60649,6 +60708,24 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralport)
+"wOU" = (
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/seconddeck/starboard)
 "wWk" = (
 /obj/machinery/portable_atmospherics/hydroponics{
 	closed_system = 1;
@@ -93397,7 +93474,7 @@ aYw
 aYw
 aYw
 and
-bNc
+wOU
 and
 aCx
 aEa
@@ -93599,7 +93676,7 @@ aYw
 aYw
 aYw
 and
-bNc
+wOU
 and
 aCz
 aEb
@@ -93801,7 +93878,7 @@ aYw
 aYw
 aYw
 and
-bNc
+wOU
 and
 awW
 aEc
@@ -95618,7 +95695,7 @@ aYw
 aYw
 adw
 ady
-adR
+oGf
 asJ
 bIo
 aCF
@@ -95820,7 +95897,7 @@ aYw
 aYw
 adw
 ady
-adR
+oGf
 aes
 bIo
 aeP
@@ -96022,7 +96099,7 @@ aYw
 aYw
 aal
 aal
-adR
+oGf
 aet
 bIo
 aeQ
@@ -96224,7 +96301,7 @@ aYw
 aYw
 aYw
 aal
-adR
+oGf
 aet
 bIo
 aeR
@@ -96426,7 +96503,7 @@ aYw
 aYw
 aYw
 aal
-adR
+oGf
 asJ
 bIo
 aCI
