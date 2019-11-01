@@ -1145,18 +1145,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
-"cs" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1331;
-	id_tag = "nuke_shuttle_dock_pump"
-	},
-/obj/structure/catwalk,
-/obj/effect/floor_decal/industrial/warning/half,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
 "ct" = (
 /obj/structure/flora/pottedplant/large,
 /obj/effect/floor_decal/borderfloor{
@@ -1235,10 +1223,6 @@
 /obj/effect/paint_stripe/nt_red,
 /turf/simulated/wall/r_titanium,
 /area/exploration_shuttle/airlock)
-"cA" = (
-/obj/machinery/atmospherics/pipe/manifold4w/hidden,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/hallway/primary/thirddeck/fore)
 "cB" = (
 /obj/effect/paint/nt_white,
 /obj/structure/sign/nanotrasen{
@@ -1517,16 +1501,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/expedition/eva)
-"dd" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	frequency = 1331;
-	id_tag = "nuke_shuttle_dock_pump"
-	},
-/obj/structure/catwalk,
-/obj/effect/floor_decal/industrial/warning/half,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
 "de" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1;
@@ -11770,14 +11744,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
-"tN" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/thirddeck/fore)
 "tO" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/no_grille,
@@ -24243,16 +24209,6 @@
 "Zi" = (
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
-"Zk" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	frequency = 1331;
-	id_tag = "nuke_shuttle_dock_pump"
-	},
-/obj/structure/catwalk,
-/obj/effect/floor_decal/industrial/warning/half,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
 "Zn" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/substation/thirddeck)
@@ -24274,10 +24230,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/central_stairwell)
-"ZB" = (
-/obj/machinery/atmospherics/pipe/manifold4w/hidden,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/hallway/primary/thirddeck/fore)
 "ZF" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/mining/brace{
@@ -38378,8 +38330,8 @@ wW
 Me
 cK
 Xl
-ZB
-Zk
+QW
+UD
 cK
 cK
 cK
@@ -38581,7 +38533,7 @@ Mg
 cK
 jw
 nX
-Zk
+UD
 cK
 cK
 cK
@@ -38782,8 +38734,8 @@ LV
 Mh
 cK
 Xl
-ZB
-Zk
+QW
+UD
 cK
 cK
 cK
@@ -38984,7 +38936,7 @@ LW
 Mk
 cK
 cv
-ZB
+QW
 de
 cK
 cK
@@ -42824,9 +42776,9 @@ pn
 fC
 bZ
 gF
-tN
-tN
-tN
+rR
+rR
+rR
 uV
 zO
 DV
