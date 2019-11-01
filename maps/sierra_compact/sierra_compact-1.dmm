@@ -724,11 +724,6 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -4614,6 +4609,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/expedition/eva)
 "ix" = (
@@ -4852,11 +4852,6 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 1
@@ -6450,6 +6445,11 @@
 /obj/effect/catwalk_plated,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/center)
@@ -9311,11 +9311,6 @@
 /obj/effect/floor_decal/corner/brown/bordercorner2{
 	dir = 9
 	},
-/obj/machinery/power/apc/high{
-	name = "south bump";
-	pixel_y = -24
-	},
-/obj/structure/cable/green,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
 "qe" = (
@@ -9591,6 +9586,15 @@
 	},
 /obj/machinery/camera/network/third_deck{
 	c_tag = "Third Deck Hallway - EL's Office"
+	},
+/obj/machinery/power/apc/high{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
@@ -18558,11 +18562,6 @@
 	dir = 8;
 	name = "Pathfinder's Office";
 	sort_type = "Pathfinder's Office"
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/center)
