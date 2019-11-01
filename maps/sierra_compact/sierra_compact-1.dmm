@@ -909,8 +909,7 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aft)
@@ -1507,10 +1506,16 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/quartermaster/expedition/storage)
 "cZ" = (
+/obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/atmospherics/pipe/zpipe/up/supply,
+/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "da" = (
@@ -1808,14 +1813,19 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/quartermaster/expedition/storage)
 "dG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
 /obj/structure/cable/green{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d2 = 4;
+	icon_state = "1-4"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/starboard)
+/turf/simulated/wall/prepainted,
+/area/quartermaster/expedition/eva)
 "dH" = (
 /obj/structure/closet/crate/freezer,
 /obj/random/single{
@@ -2563,10 +2573,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "eP" = (
@@ -2586,10 +2592,6 @@
 /area/maintenance/thirddeck/starboard)
 "eQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 4
-	},
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -2903,11 +2905,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
 	},
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
@@ -3384,12 +3381,6 @@
 /area/quartermaster/hangar)
 "gi" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -3415,20 +3406,20 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "gk" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -3494,9 +3485,6 @@
 /area/shuttle/petrov/ship)
 "gs" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
-/obj/structure/disposalpipe/up{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/starboard)
 "gt" = (
@@ -4504,21 +4492,17 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "ig" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/structure/disposalpipe/up{
+	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
+/obj/effect/floor_decal/industrial/warning/fulltile,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
 	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "ih" = (
@@ -4664,6 +4648,18 @@
 "iw" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/expedition/eva)
 "ix" = (
@@ -4739,7 +4735,6 @@
 	dir = 8;
 	target_pressure = 200
 	},
-/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "iC" = (
@@ -14177,6 +14172,10 @@
 /obj/structure/sign/warning/hot_exhaust{
 	pixel_y = 32
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aft)
 "yp" = (
@@ -15200,6 +15199,13 @@
 /obj/random/tech_supply,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/quartermaster/storage)
+"Al" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/rnd/xenobiology/level2)
 "Am" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9;
@@ -17645,6 +17651,7 @@
 /area/exploration_shuttle/power)
 "Fz" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aft)
 "FA" = (
@@ -18007,9 +18014,19 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/shuttle/escape_pod9/station)
 "Gl" = (
-/obj/structure/flora/seaweed,
-/turf/simulated/floor/aquarium,
-/area/rnd/xenobiology/level2)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/wall/prepainted,
+/area/quartermaster/expedition/eva)
 "Gm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -18206,6 +18223,13 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/exploration)
+"GC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/rnd/xenobiology/level2)
 "GD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -19347,18 +19371,9 @@
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/office)
 "IA" = (
-/obj/structure/disposalpipe/up{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning/full,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/aft)
+/obj/structure/disposalpipe/segment,
+/turf/simulated/wall/r_wall/prepainted,
+/area/rnd/xenobiology/level2)
 "IB" = (
 /obj/structure/bed/chair/shuttle/green,
 /obj/effect/floor_decal/borderfloor{
@@ -22783,6 +22798,11 @@
 	},
 /turf/simulated/wall/prepainted,
 /area/quartermaster/storage)
+"Qh" = (
+/obj/structure/disposalpipe/up,
+/obj/effect/floor_decal/industrial/warning/full,
+/turf/simulated/floor/plating,
+/area/rnd/xenobiology/level2)
 "Qi" = (
 /obj/structure/ship_munition/bsa_charge/fire,
 /obj/effect/floor_decal/industrial/outline/orange,
@@ -46724,7 +46744,7 @@ Is
 Is
 Is
 ak
-dG
+ht
 ft
 gy
 pK
@@ -47130,7 +47150,7 @@ Is
 ak
 iB
 gk
-tw
+dG
 gX
 Yn
 ID
@@ -47331,7 +47351,7 @@ Is
 Is
 ak
 eQ
-gk
+cZ
 iw
 df
 IM
@@ -47534,7 +47554,7 @@ ak
 ak
 eP
 ig
-tw
+Gl
 dc
 KN
 Ng
@@ -47735,7 +47755,7 @@ Is
 ak
 dH
 gZ
-cZ
+ht
 tw
 fO
 gJ
@@ -54434,7 +54454,7 @@ EY
 Ip
 Nv
 Nv
-yN
+Nv
 Mo
 Jb
 MH
@@ -54633,11 +54653,11 @@ mI
 nV
 LM
 bX
-IA
+cH
 Nv
-Gl
-Jb
-yN
+Nv
+Qh
+Al
 Na
 MH
 NB
@@ -54836,10 +54856,10 @@ oa
 LM
 ym
 Fz
-Nv
-yN
-yN
-Mu
+IA
+IA
+IA
+GC
 Mj
 MH
 NC
