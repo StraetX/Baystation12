@@ -7314,7 +7314,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/techfloor,
-/area/security/brig)
+/area/security/sierra/hallway)
 "arp" = (
 /obj/structure/extinguisher_cabinet{
 	dir = 8;
@@ -7378,7 +7378,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "arA" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -7685,7 +7685,7 @@
 /obj/effect/catwalk_plated,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
-/area/security/brig)
+/area/security/sierra/hallway)
 "asd" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "captaindoor";
@@ -7721,7 +7721,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "asf" = (
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -7754,7 +7754,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "ask" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/box/swabs,
@@ -8606,7 +8606,7 @@
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals6,
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "auo" = (
 /turf/simulated/wall/prepainted,
 /area/security/sierra/forensic)
@@ -8922,7 +8922,7 @@
 /obj/effect/catwalk_plated,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
-/area/security/brig)
+/area/security/sierra/hallway)
 "avd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -9593,7 +9593,7 @@
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals6,
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "awp" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/galley/backroom)
@@ -11201,7 +11201,7 @@
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals6,
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "azE" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/security/sierra/sergeant)
@@ -17915,7 +17915,7 @@
 /obj/structure/table/rack,
 /obj/random/maintenance,
 /turf/simulated/floor/plating,
-/area/maintenance/firstdeck/centralstarboard)
+/area/maintenance/seconddeck/starboard)
 "aMK" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 6
@@ -18280,7 +18280,7 @@
 /obj/structure/table/rack,
 /obj/random/maintenance,
 /turf/simulated/floor/plating,
-/area/maintenance/firstdeck/centralstarboard)
+/area/maintenance/seconddeck/starboard)
 "aNr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -19358,7 +19358,7 @@
 /obj/effect/catwalk_plated,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aPF" = (
 /obj/machinery/light{
 	dir = 4
@@ -19382,7 +19382,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aPG" = (
 /obj/effect/catwalk_plated,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -21996,7 +21996,7 @@
 	icon_state = "pipe-j2"
 	},
 /turf/simulated/floor/plating,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aUl" = (
 /obj/structure/bed/chair/shuttle{
 	dir = 1
@@ -22589,7 +22589,7 @@
 	},
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aUR" = (
 /obj/structure/sign/warning/secure_area{
 	pixel_x = 4
@@ -23156,7 +23156,7 @@
 	},
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aWb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -23280,6 +23280,10 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/light,
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/center)
 "aWq" = (
@@ -23807,7 +23811,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aXB" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -24294,7 +24298,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aYI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -24388,7 +24392,7 @@
 /obj/effect/floor_decal/borderfloor/corner2,
 /obj/effect/floor_decal/corner/red/bordercorner2,
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aYX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -24447,7 +24451,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aZc" = (
 /obj/machinery/computer/atmos_alert,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -24694,7 +24698,7 @@
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals6,
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aZr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -24837,7 +24841,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aZJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -24862,7 +24866,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aZK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -24875,7 +24879,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aZM" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -24896,7 +24900,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "aZZ" = (
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 9
@@ -25043,7 +25047,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "bau" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -25345,7 +25349,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "baN" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 8;
@@ -25421,7 +25425,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "baT" = (
 /obj/structure/closet/secure_closet/atmos_sierra,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -25651,6 +25655,10 @@
 "bbx" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 23
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/brig)
 "bby" = (
@@ -25795,6 +25803,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/light_switch{
+	pixel_x = -8;
+	pixel_y = 28
+	},
 /turf/simulated/floor/plating,
 /area/security/brig)
 "bbE" = (
@@ -25912,7 +25924,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "bbQ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -25954,7 +25966,7 @@
 /obj/effect/floor_decal/borderfloor/corner2,
 /obj/effect/floor_decal/corner/red/bordercorner2,
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "bbT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -26070,7 +26082,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/security/brig)
+/area/security/sierra/hallway)
 "bca" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -26223,6 +26235,10 @@
 	},
 /obj/effect/floor_decal/corner/red/bordercorner2{
 	dir = 9
+	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/security/brig)
@@ -26465,7 +26481,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "bcR" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -32510,10 +32526,6 @@
 	c_tag = "Second Deck Hallway - Aft";
 	dir = 1
 	},
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/center)
 "bru" = (
@@ -35871,7 +35883,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/firstdeck/centralstarboard)
+/area/maintenance/seconddeck/starboard)
 "bxO" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -36026,7 +36038,7 @@
 "bya" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/maintenance/firstdeck/centralstarboard)
+/area/maintenance/seconddeck/starboard)
 "byb" = (
 /obj/machinery/power/smes/buildable/preset/sierra/substation{
 	RCon_tag = "Utility - First Backup"
@@ -36160,7 +36172,7 @@
 	name = "Stowaway"
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/firstdeck/centralstarboard)
+/area/maintenance/seconddeck/starboard)
 "bym" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -36459,6 +36471,11 @@
 	pixel_x = -24;
 	pixel_y = 31;
 	tag_door = "escape_pod_12_berth_hatch"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
@@ -44527,22 +44544,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
 "bNd" = (
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/obj/structure/catwalk,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
+/obj/random/closet,
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
 "bNe" = (
@@ -51779,10 +51781,6 @@
 "bXy" = (
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/blue/border,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
 "bXz" = (
@@ -58915,6 +58913,9 @@
 /obj/item/toy/plushie/spider,
 /turf/simulated/floor/carpet/green,
 /area/crew_quarters/sleep/bunk)
+"eGj" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/security/sierra/hallway)
 "eWY" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "AI Upload";
@@ -59307,6 +59308,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
+"jcw" = (
+/obj/structure/catwalk,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/firstdeck/centralstarboard)
 "jHK" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -59703,7 +59717,18 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
+"ndr" = (
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/seconddeck/starboard)
+"nmP" = (
+/turf/simulated/wall/prepainted,
+/area/security/sierra/hallway)
 "nrO" = (
 /turf/simulated/wall/prepainted,
 /area/security/prison)
@@ -59905,7 +59930,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/brig)
+/area/security/sierra/hallway)
 "puj" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -65513,7 +65538,7 @@ aZK
 bao
 baS
 bbS
-cqN
+nmP
 atQ
 awB
 aEl
@@ -65701,7 +65726,7 @@ jUt
 ash
 atx
 auj
-aIX
+eGj
 asi
 arz
 ase
@@ -65909,7 +65934,7 @@ aaa
 aaa
 aaa
 aaa
-aIX
+eGj
 aVZ
 aZb
 ajP
@@ -74782,7 +74807,7 @@ aLn
 aLn
 byh
 aqT
-bzg
+jcw
 bzg
 bzC
 bzP
@@ -81035,16 +81060,16 @@ aYw
 aYw
 aYw
 aYw
-aqT
-aqT
-aqT
-aqT
+and
+and
+and
+and
 aMJ
 bxN
-bxZ
+awW
 byl
-bzg
-bxZ
+aAq
+awW
 avQ
 awW
 ayy
@@ -81242,10 +81267,10 @@ aYw
 adw
 ajb
 aNq
-bzg
+aAq
 bya
-bzg
-bzg
+aAq
+aAq
 aMJ
 avQ
 awW
@@ -81443,15 +81468,15 @@ ajb
 ajb
 ajb
 ajb
-bzg
-bzg
-bxZ
-bzg
-bzg
-bzg
+aAq
+aAq
+awW
+aAq
+aAq
+aAq
 bNb
-bzg
-bzg
+aAq
+aAq
 aAs
 aCm
 aDW
@@ -81645,15 +81670,15 @@ ajU
 ajU
 ajU
 ajU
-aqT
-bPH
-bxZ
-bzg
-bzg
+and
+bNd
+awW
+aAq
+aAq
 awZ
 bNc
 awZ
-bzg
+aAq
 aAs
 aCn
 aDX
@@ -81847,15 +81872,15 @@ aku
 aly
 ama
 amr
-aqT
-aqT
-aqT
-aqT
-bzg
+and
+and
+and
+and
+aAq
 axa
 bNc
-axa
-bzg
+aDU
+aAq
 aAs
 aCp
 aDW
@@ -82050,14 +82075,14 @@ alz
 amb
 ams
 ajb
-aqT
-aqT
-aqT
-bzg
+and
+and
+and
+aAq
 axb
-bNd
+bNc
 axb
-bzg
+ndr
 aAs
 aCq
 aDY
@@ -82253,7 +82278,7 @@ amc
 aku
 ajb
 aYw
-aqT
+and
 ane
 ane
 apt
