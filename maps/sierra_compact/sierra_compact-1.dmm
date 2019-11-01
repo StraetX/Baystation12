@@ -12975,9 +12975,6 @@
 /obj/machinery/papershredder,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
-"vR" = (
-/turf/simulated/wall/r_wall/hull,
-/area/space)
 "vS" = (
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/center)
@@ -37115,7 +37112,7 @@ Is
 Is
 Is
 Is
-vR
+Is
 Is
 Is
 Is
