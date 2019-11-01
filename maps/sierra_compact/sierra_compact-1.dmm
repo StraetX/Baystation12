@@ -1348,23 +1348,6 @@
 "cK" = (
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/thirddeck/fore)
-"cL" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/thirddeck/fore)
 "cM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -10879,10 +10862,6 @@
 "sq" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/hallway/primary/thirddeck/center)
-"sr" = (
-/obj/structure/stairs/west,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
 "ss" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
@@ -10983,9 +10962,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aft)
-"sz" = (
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
 "sA" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -38682,7 +38658,7 @@ wW
 Me
 ks
 cs
-cL
+cA
 dd
 cK
 cK
@@ -38884,7 +38860,7 @@ LU
 Mg
 ks
 nU
-cL
+cA
 Zk
 cK
 cK
