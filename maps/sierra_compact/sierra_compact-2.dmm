@@ -45807,10 +45807,6 @@
 /obj/structure/closet/coffin/wooden,
 /turf/simulated/floor/wood/ebony,
 /area/medical/coffins)
-"bPB" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/maintenance/substation/firstdeck)
 "bPC" = (
 /obj/machinery/camera/network/engineering{
 	c_tag = "Substation - First Deck"
@@ -81774,8 +81770,8 @@ apu
 bNe
 bNO
 apt
-bPB
-bPB
+bOZ
+bOZ
 bQf
 bQI
 bRj
@@ -82178,7 +82174,7 @@ apw
 bmp
 bNP
 apt
-bPB
+bOZ
 bPC
 bQh
 bQI
