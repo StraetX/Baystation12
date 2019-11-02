@@ -56574,7 +56574,7 @@
 	req_access = newlist()
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/rnd/storage)
+/area/rnd/research)
 "cet" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 23
