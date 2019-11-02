@@ -45920,6 +45920,16 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "bPG" = (
@@ -46631,6 +46641,11 @@
 	req_access = newlist()
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/eva)
 "bQK" = (
@@ -47105,6 +47120,11 @@
 /area/storage/eva)
 "bRo" = (
 /obj/effect/floor_decal/industrial/hatch/grey,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
 "bRp" = (
@@ -47670,11 +47690,21 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 1
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
 "bRY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
@@ -47682,9 +47712,19 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
 "bSa" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
 "bSb" = (
@@ -48054,6 +48094,11 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/techfloor/corner,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
 "bSE" = (
@@ -48334,6 +48379,11 @@
 	name = "E.V.A.";
 	req_access = newlist();
 	secured_wires = 1
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/eva)
@@ -48857,6 +48907,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
 "bTK" = (
@@ -49295,6 +49350,11 @@
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/eva)
@@ -58797,6 +58857,15 @@
 /obj/structure/flora/pottedplant/overgrown,
 /turf/simulated/floor/lino,
 /area/bridge/meeting_room)
+"ecw" = (
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/firstdeck/centralstarboard)
 "ehp" = (
 /turf/simulated/floor/lino,
 /area/crew_quarters/lounge/upper)
@@ -58968,6 +59037,15 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/substation/firstdeck)
+"ghG" = (
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/firstdeck/centralstarboard)
 "glw" = (
 /obj/machinery/door_timer/cell_2,
 /turf/simulated/wall/prepainted,
@@ -83715,8 +83793,8 @@ aqH
 asa
 apt
 bPd
-bzg
-bzg
+ecw
+ghG
 bQJ
 bRo
 bSa
