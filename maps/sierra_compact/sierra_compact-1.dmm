@@ -21483,6 +21483,9 @@
 "Nh" = (
 /turf/simulated/floor/tiled,
 /area/rnd/xenobiology/storage)
+"Ni" = (
+/turf/simulated/wall/prepainted,
+/area/space)
 "Nj" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -37111,7 +37114,7 @@ Is
 Is
 Is
 Is
-Is
+Ni
 Is
 Is
 Is
