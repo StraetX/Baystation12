@@ -142,10 +142,10 @@ VOTE_DELAY 6000
 VOTE_PERIOD 60
 
 ## autovote initial delay (deciseconds) before first automatic transfer vote call (default 180 minutes)
-VOTE_AUTOTRANSFER_INITIAL 108000
+VOTE_AUTOTRANSFER_INITIAL 10800
 
 ##autovote delay (deciseconds) before sequential automatic transfer votes are called (default 30 minutes)
-VOTE_AUTOTRANSFER_INTERVAL 180000
+VOTE_AUTOTRANSFER_INTERVAL 1800
 
 ## Time left (seconds) before round start when automatic gamemote vote is called (default 160).
 VOTE_AUTOGAMEMODE_TIMELEFT 60
@@ -212,7 +212,7 @@ WIKIURL https://wiki.infinity-ss13.info
 
 ## In-game features
 ## spawns a spellbook which gives object-type spells instead of verb-type spells for the wizard
-# FEATURE_OBJECT_SPELL_SYSTEM
+FEATURE_OBJECT_SPELL_SYSTEM
 
 ##Toggle for having jobs load up from the .txt
 # LOAD_JOBS_FROM_TXT
@@ -247,7 +247,7 @@ GATEWAY_DELAY 18000
 
 ## Remove the # to make rounds which end instantly (Rev, Wizard, Malf) to continue until the shuttle is called or the station is nuked.
 ## Malf and Rev will let the shuttle be called when the antags/protags are dead.
-#CONTINUOUS_ROUNDS
+CONTINUOUS_ROUNDS
 
 ## Uncomment to restrict non-admins from using humanoid alien races
 USEALIENWHITELIST
