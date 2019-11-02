@@ -15,7 +15,8 @@
 		return FALSE
 
 /datum/vote/transfer/setup_vote(mob/creator, automatic)
-	choices = list("Initiate Crew Transfer", "Extend the Round ([config.vote_autotransfer_interval / 600] minutes), Add Antagonist")
+	choices = list("Initiate Crew Transfer", "Extend the Round ([config.vote_autotransfer_interval / 600] minutes)")
+	choices += "Add Antagonist"
 	..()
 
 /datum/vote/transfer/handle_default_votes()
