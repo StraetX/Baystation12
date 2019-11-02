@@ -1641,7 +1641,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
-/turf/simulated/floor/reinforced/oxygen,
+/turf/simulated/floor/reinforced,
 /area/bridge/hall/level_one)
 "ado" = (
 /obj/item/modular_computer/console/preset/dock{
@@ -2077,7 +2077,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 6
 	},
-/turf/simulated/floor/reinforced/oxygen,
+/turf/simulated/floor/reinforced,
 /area/bridge/hall/level_one)
 "aea" = (
 /obj/effect/floor_decal/corner/blue{
@@ -3261,7 +3261,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 5
 	},
-/turf/simulated/floor/reinforced/oxygen,
+/turf/simulated/floor/reinforced,
 /area/bridge/hall/level_one)
 "afZ" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
@@ -3837,6 +3837,9 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	req_access = newlist()
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/compactor)
@@ -35857,8 +35860,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralport)
@@ -35876,9 +35881,6 @@
 	},
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
 /turf/simulated/floor/plating,
@@ -36132,7 +36134,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/starboard)
 "bym" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -40446,11 +40447,9 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/techfloor,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo/upper)
 "bFz" = (
@@ -41582,8 +41581,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/tcommsat/storage)
@@ -41807,7 +41806,6 @@
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
 /area/tcommsat/storage)
 "bHV" = (
@@ -41887,7 +41885,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
 	id_tag = "telecoms_s"
@@ -45505,8 +45502,10 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/medical/crematorium)
 "bOR" = (
-/obj/machinery/button/crematorium,
-/turf/simulated/wall/prepainted,
+/obj/machinery/button/crematorium{
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/medical/crematorium)
 "bOS" = (
 /obj/structure/cable/green{
@@ -47531,17 +47530,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/medical/mentalhealth)
 "bRL" = (
-/obj/machinery/light_switch{
-	dir = 1;
-	pixel_x = -6;
-	pixel_y = -21
-	},
-/obj/machinery/button/windowtint{
-	dir = 1;
-	id = "counsel_windows";
-	pixel_x = 6;
-	pixel_y = -21
-	},
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 6
 	},
@@ -57360,13 +57348,13 @@
 	name = "Aft Port Solar Access";
 	req_access = newlist()
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/solar)
 "cfW" = (
@@ -57383,11 +57371,6 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Aft Port Solar Access";
 	req_access = newlist()
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/solar)
@@ -57492,11 +57475,6 @@
 "cgh" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/solar)
@@ -58388,9 +58366,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralport)
@@ -58890,6 +58865,17 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 6
 	},
+/obj/machinery/button/windowtint{
+	dir = 1;
+	id = "counsel_windows";
+	pixel_x = 6;
+	pixel_y = -21
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_x = -6;
+	pixel_y = -21
+	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/mentalhealth)
 "eFT" = (
@@ -59108,18 +59094,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/button/windowtint{
-	dir = 4;
-	id = "cap_beach";
-	pixel_x = -23;
-	pixel_y = -6
-	},
-/obj/machinery/button/windowtint{
-	dir = 4;
-	id = "cap_windows";
-	pixel_x = -23;
-	pixel_y = 6
-	},
 /obj/structure/flora/pottedplant{
 	icon_state = "plant-22"
 	},
@@ -60657,9 +60631,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralport)
 "wOU" = (
@@ -60677,21 +60648,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/freezer,
 /area/rnd/xenobiology/xenoflora)
-"wXc" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 2;
-	icon_state = "shutter0";
-	id_tag = "infirmaryquar";
-	name = "Infirmary Emergency Quarantine Shutters";
-	opacity = 0
-	},
-/obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
-	id = "counsel_windows"
-	},
-/turf/simulated/floor/plating,
-/area/medical/mentalhealth)
 "xkC" = (
 /obj/machinery/door/airlock/civilian{
 	name = "Dormitory"
@@ -89990,7 +89946,7 @@ bNC
 bNC
 bNC
 bOp
-bOR
+bNC
 bQA
 bRc
 bRP
@@ -90000,7 +89956,7 @@ bWv
 pKC
 xwC
 eBY
-wXc
+bPZ
 bWB
 bXn
 bYc
@@ -90195,14 +90151,14 @@ bPt
 bNC
 bQB
 bRd
-bOP
+bOR
 bPZ
 bPZ
 bPZ
 bPZ
 bPZ
 bPZ
-wXc
+bPZ
 bWC
 bXo
 bYd
