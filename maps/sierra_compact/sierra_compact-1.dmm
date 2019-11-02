@@ -23904,6 +23904,10 @@
 	},
 /turf/simulated/floor/grass,
 /area/hallway/primary/thirddeck/center)
+"UW" = (
+/obj/effect/shuttle_landmark/supply/station,
+/turf/simulated/floor/plating,
+/area/quartermaster/hangar)
 "UZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -50267,7 +50271,7 @@ aO
 aO
 aO
 aO
-aO
+UW
 aO
 aO
 aO
