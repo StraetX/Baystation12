@@ -26925,7 +26925,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bdP" = (
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -27517,7 +27517,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bfa" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/closet/cabinet,
@@ -27978,7 +27978,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bgf" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -27993,7 +27993,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bgg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -28313,7 +28313,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bhf" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -28766,7 +28766,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bil" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
@@ -29133,14 +29133,14 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bje" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bjf" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -29148,19 +29148,19 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/flora/pottedplant/tall,
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bjg" = (
 /obj/structure/undies_wardrobe,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bjh" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/table/standard,
 /obj/structure/bedsheetbin,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bji" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -29539,7 +29539,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bkd" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -29557,7 +29557,7 @@
 /obj/effect/floor_decal/borderfloor/corner2,
 /obj/effect/floor_decal/corner/lime/bordercorner2,
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bke" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -29580,7 +29580,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bkf" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -29600,7 +29600,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bkg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -29626,7 +29626,7 @@
 	},
 /obj/effect/floor_decal/corner/lime/bordercorner2,
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bkh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -29644,7 +29644,7 @@
 	name = "Dormitory"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bki" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -50104,7 +50104,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "bVu" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -50386,7 +50386,8 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/multi_tile/glass/medical/mortus{
-	name = "Mentalist Office Door"
+	name = "Mentalist Office Door";
+	opacity = 1
 	},
 /turf/simulated/floor/plating,
 /area/medical/mentalhealth)
@@ -59121,7 +59122,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "hMz" = (
 /obj/machinery/atmospherics/valve,
 /obj/machinery/alarm{
@@ -59162,7 +59163,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "hWD" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Conference Room Maintenance";
@@ -59869,7 +59870,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/crew_quarters/sleep/cryo/upper)
+/area/crew_quarters/sleep/bunk)
 "pdB" = (
 /obj/structure/table/rack,
 /obj/effect/decal/cleanable/cobweb2,
@@ -81687,7 +81688,7 @@ aXq
 aXq
 aXq
 aXq
-bEg
+aXq
 bkh
 aXq
 aXq
