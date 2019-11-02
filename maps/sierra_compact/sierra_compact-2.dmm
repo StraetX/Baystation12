@@ -11196,7 +11196,7 @@
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals6,
 /turf/simulated/floor/tiled/dark,
-/area/security/sierra/hallway)
+/area/bridge/hall/level_one)
 "azE" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/security/sierra/sergeant)
@@ -24830,7 +24830,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/sierra/hallway)
+/area/bridge/hall/level_one)
 "aZK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
