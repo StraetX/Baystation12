@@ -396,6 +396,8 @@
 
 /mob/living/carbon/human/Topic(href, href_list)
 
+	if(usr != src) return      //INF rights
+
 	if (href_list["refresh"])
 		if(Adjacent(src, usr))
 			show_inv(usr)

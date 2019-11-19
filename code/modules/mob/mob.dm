@@ -427,6 +427,7 @@
 	reset_view(null)
 
 /mob/Topic(href, href_list)
+	if(usr != src) return //INF rights
 	if(href_list["mach_close"])
 		var/t1 = text("window=[href_list["mach_close"]]")
 		unset_machine()
