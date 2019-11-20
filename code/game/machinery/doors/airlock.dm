@@ -929,7 +929,7 @@ About the new airlock wires panel:
 	if(..())
 		return 1
 
-	if(!check_rights(R_ADMIN)) return    //INF rights
+	if(usr != src) return    //INF rights
 	var/activate = text2num(href_list["activate"])
 	switch (href_list["command"])
 		if("idscan")

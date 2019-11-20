@@ -245,7 +245,6 @@
 	src << browse(dat, "window=checklanguage")
 
 /mob/living/Topic(href, href_list)
-	if(usr != src) return      //INF rights
 	if(href_list["default_lang"])
 		if(href_list["default_lang"] == "reset")
 
