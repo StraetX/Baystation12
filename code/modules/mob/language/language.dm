@@ -248,7 +248,6 @@
 	if(href_list["default_lang"])
 		if(href_list["default_lang"] == "reset")
 
-			if(!check_rights(R_ADMIN)) return    //INF rights
 			if (species_language)
 				set_default_language(all_languages[species_language])
 			else

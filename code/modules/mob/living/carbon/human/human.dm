@@ -396,8 +396,6 @@
 
 /mob/living/carbon/human/Topic(href, href_list)
 
-	if(usr != src) return      //INF rights
-
 	if (href_list["refresh"])
 		if(Adjacent(src, usr))
 			show_inv(usr)
@@ -550,6 +548,10 @@
 			M.see_relationship_info_with(src)
 
 	if (href_list["flavor_change"])
+		if ( usr != src )                                           //inf rights
+			to_chat(usr, "<span class='warning'>Looooooooh.</span>")//inf rights
+			return                                                  //inf rights
+
 		switch(href_list["flavor_change"])
 			if("done")
 				src << browse(null, "window=flavor_changes")

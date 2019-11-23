@@ -103,7 +103,9 @@ datum/preferences
 
 	if(!user)	return
 	if(isliving(user)) return
-
+	if ( usr != src )              //inf rights
+		to_chat(usr, " usr != src, preferences.dm, LOOOOOH ") //inf rights
+		return                     //inf rights
 	if(href_list["preference"] == "open_whitelist_forum")
 		if(config.forumurl)
 			user << link(config.forumurl)
