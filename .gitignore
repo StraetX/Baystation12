@@ -21,3 +21,4 @@ baystation12.lk
 baystation12.rsc.lk
 baystation12.dyn.rsc.lk
 data/*
+config/alienwhitelist.txt
