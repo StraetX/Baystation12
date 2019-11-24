@@ -231,7 +231,7 @@ SUBSYSTEM_DEF(event)
 /datum/controller/subsystem/event/Topic(href, href_list)
 	if(..())
 		return
-
+	if(!check_rights(R_ADMIN)) return    //inf rights
 	if(href_list["toggle_report"])
 		report_at_round_end = !report_at_round_end
 		log_and_message_admins("has [report_at_round_end ? "enabled" : "disabled"] the round end event report.")
