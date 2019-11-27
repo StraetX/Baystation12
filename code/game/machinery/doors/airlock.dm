@@ -41,7 +41,6 @@ var/list/airlock_overlays = list()
 	var/obj/machinery/door/airlock/closeOther = null
 	var/closeOtherId = null
 	var/lockdownbyai = 0
-	var/nowindow = 1 //inf rights
 	autoclose = 1
 	var/assembly_type = /obj/structure/door_assembly
 	var/mineral = null
@@ -812,15 +811,12 @@ About the new airlock wires panel:
 
 /obj/machinery/door/airlock/attack_robot(mob/user)
 	ui_interact(user)
-	nowindow = 0 //inf rights
 
 /obj/machinery/door/airlock/attack_ai(mob/user)
 	ui_interact(user)
-	nowindow = 0 //inf rights
 
 /obj/machinery/door/airlock/attack_ghost(mob/user)
 	ui_interact(user)
-	nowindow = 0 //inf rights
 
 /obj/machinery/door/airlock/ui_interact(mob/user, ui_key = "main", var/datum/nanoui/ui = null, var/force_open = 1, var/datum/topic_state/state = GLOB.default_state)
 	var/data[0]
@@ -933,9 +929,9 @@ About the new airlock wires panel:
 	if(..())
 		return 1
 
-	if( nowindow )                            //inf rights
-		to_chat(usr, " nowindow ")            //inf rights
-		return                                //inf rights
+	if( !check_rights(R_ADMIN) && ( !isAI(usr) && !isrobot(usr) ) )   //inf rights
+		to_chat(usr, " nowindow ")                      //inf rights
+		return                                          //inf rights
 	var/activate = text2num(href_list["activate"])
 	switch (href_list["command"])
 		if("idscan")
