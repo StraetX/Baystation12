@@ -928,10 +928,10 @@ About the new airlock wires panel:
 /obj/machinery/door/airlock/Topic(href, href_list)
 	if(..())
 		return 1
-
-	if( !check_rights(R_ADMIN) && ( !isAI(usr) && !isrobot(usr) ) )   //inf rights
-		to_chat(usr, " nowindow ")                      //inf rights
-		return                                          //inf rights
+	if( !isAI(usr) && !isrobot(usr) )  //inf rights
+		if ( !check_rights(R_ADMIN) )  //inf rights
+			to_chat(usr, " nowindow ") //inf rights
+			return                     //inf rights
 	var/activate = text2num(href_list["activate"])
 	switch (href_list["command"])
 		if("idscan")
