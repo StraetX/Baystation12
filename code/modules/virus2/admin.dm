@@ -116,6 +116,8 @@
 		user << browse(H, "window=virus2edit")
 
 	Topic(href, href_list)
+		if(!check_rights(R_ADMIN)) return    //inf rights
+
 		switch(href_list["what"])
 			if("effect")
 				var/stage = text2num(href_list["stage"])

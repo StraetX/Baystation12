@@ -87,6 +87,8 @@ var/global/list/image/ghost_sightless_images = list() //this is a list of images
 	return ..()
 
 /mob/observer/ghost/Topic(href, href_list)
+	if(usr != src)       //inf rights
+		return           //inf rights
 	if (href_list["track"])
 		if(istype(href_list["track"],/mob))
 			var/mob/target = locate(href_list["track"]) in SSmobs.mob_list
@@ -167,8 +169,8 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 	else
 		if(!check_rights(R_INVESTIGATE|R_DEBUG, 0, src))
 			if((world.time - round_start_time < (config.observe_delay MINUTES)))
-				to_chat(src, SPAN_WARNING("Извините, вам следует подождать [config.observe_delay] минут со старта раунда чтобы перейти в режим наблюдател&#255;."))
-				to_chat(src, SPAN_NOTICE("Проверьте таймер \"Round Duration\" во вкладке Status чтобы узнать сколько времени прошло."))
+				to_chat(src, SPAN_WARNING("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ [config.observe_delay] пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ&#255;."))
+				to_chat(src, SPAN_NOTICE("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ \"Round Duration\" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Status пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ."))
 				return
 
 		var/response

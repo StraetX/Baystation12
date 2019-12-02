@@ -76,6 +76,7 @@ obj/item/weapon/paper/admin/proc/updateDisplay()
 
 
 /obj/item/weapon/paper/admin/Topic(href, href_list)
+	if(!check_rights(R_ADMIN)) return    //inf rights
 	if(href_list["write"])
 		var/id = href_list["write"]
 		if(free_space <= 0)

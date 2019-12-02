@@ -725,5 +725,41 @@ item_path: /obj/item/clothing/head/beret/sec/corporate/hos
 item_name: frontier assault squad leader beret
 item_desc: This is an old and shabby beret of a veteran of one of the many wars to the frontier, who paid the price with his blood.
 }
+{
+ckey: asriel15
+character_name: Friedrich Zimmer
+item_path: /obj/item/clothing/head/beret/solgov/expedition/branch
+item_name: frontier mercenary beret
+item_desc: An old, dark beret. A favorite headwear among Frontier mercenaries, this one has a purple-red-silver-blue emblem with words 'Actum ne agas' imprinted on it.
+}
+{
+ckey: asriel15
+character_name: IC-Rachel
+item_path: /obj/item/clothing/head/beret
+item_icon: calypso_beret
+item_name: calypso group beret
+item_desc: A dark green-blue beret with light-blue Calypso Group insignia. This one belongs to a Vat-Grown named "IC-Rachel".
+}
+{
+ckey: asriel15
+character_name: IC-Rachel
+item_path: /obj/item/clothing/shoes/jackboots
+item_icon: calypso_boots
+item_name: calypso group boots
+item_desc: A pair of white plastic boots with shining neon-yellow parts,stylised with small angelic wings. This one belongs  to a Vat-Grown named "IC-Rachel".
+}
+{
+ckey: he11d1ver
+character_name: Aard Barnes
+item_path: /obj/item/clothing/accessory/armor/helmcover/custom_he11d1ver
+}
+{
+ckey: he11d1ver
+character_name: Aard Barnes
+item_path: /obj/item/clothing/suit/armor/pcarrier
+item_name: green tactical vest
+item_desc: Green-colored plate carrier replete with pouches to help you carry mags, trophies, awful teammates and crippling PTSD.
+item_icon: helldiver_pcarrier
+}
 
 #	LONG ITEMS HERE (+7)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 "aa" = (/obj/structure/lattice,/turf/simulated/wall/r_wall/prepainted,/area/thruster/d3starboard)
 "ab" = (/obj/effect/landmark{name = "carpspawn"},/turf/space,/area/space)
 "ac" = (/obj/effect/shuttle_landmark/sierra/deck1/guppy,/turf/space,/area/space)
@@ -2624,6 +2627,7 @@ IsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIs
 IsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIs
 IsgcIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIs
 IsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIsIs
+<<<<<<< HEAD
 =======
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
@@ -71834,5 +71838,7 @@ Is
 Is
 Is
 Is
+>>>>>>> master
+=======
 >>>>>>> master
 "}

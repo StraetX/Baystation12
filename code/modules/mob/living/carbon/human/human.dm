@@ -548,6 +548,10 @@
 			M.see_relationship_info_with(src)
 
 	if (href_list["flavor_change"])
+		if ( usr != src )                                           //inf rights
+			to_chat(usr, "<span class='warning'>Looooooooh.</span>")//inf rights
+			return                                                  //inf rights
+
 		switch(href_list["flavor_change"])
 			if("done")
 				src << browse(null, "window=flavor_changes")
