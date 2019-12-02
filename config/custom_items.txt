@@ -180,6 +180,11 @@ ckey: thehero13
 character_name: Jake Pater
 item_path: /obj/item/music_player/custom_tape
 }
+{
+ckey: sallyvadordomold
+character_name: Denis Serbin
+item_path: /obj/item/music_player/custom_tape
+}
 
 #	SHORT ITEMS HERE (3-4)
 
@@ -399,6 +404,12 @@ character_name: Amr'in Battrral
 item_path: /obj/item/clothing/accessory/necklace/messa
 }
 {
+ckey: arhod
+character_name: Jason Marhod
+item_path: /obj/item/clothing/accessory/medal/solgov/silver/sword
+item_desc: A silver medal awarded to members of the SCG for honorable service while under enemy fire. Belongs to Jason Marhod.
+}
+{
 ckey: laxesh
 character_name: Thomas Koster
 item_path: /obj/item/weapon/storage/belt/holster/ic/full
@@ -549,6 +560,12 @@ character_name: Stan Karelin
 item_path: /obj/item/clothing/suit/storage/rockcloak
 }
 {
+ckey: exapster
+character_name: Matthew Stone
+item_path: /obj/item/clothing/suit/storage/rockcloak
+item_desc: An Anti-Front cloak. This one has large red letter "A", crossed out by a white line and circled. This cloak also has a large red brick wall on the back, and in this walls you can notice some blooddrops...You also can see two small intriciptions in the lower part of this cloak and one large over them. The first sats, "Matthew Damir Stone", referring to it's owner. The second one says, "Squeezing our hearts, the memory of the past will live on.". That cloak smells like rock ' n ' roll.
+}
+{
 ckey: ilya2180
 character_name: Malik Myan
 item_path: /obj/item/clothing/accessory/armband/custom_bs
@@ -559,7 +576,34 @@ character_name: Jack McMillan
 item_path: /obj/item/weapon/clothingbag/custom_zpci_knight
 req_access: "ACCESS_SECURITY"
 }
-
+{
+ckey: jacking
+character_name: Mammoth Nestor
+item_path: /obj/item/weapon/clothingbag/custom_saare
+req_access: "ACCESS_SECURITY"
+}
+{
+ckey: coolered
+character_name: Martha Muller
+item_path: /obj/item/clothing/under/thermal/custom
+}
+{
+ckey: sallyvadordomold
+character_name: Denis Serbin
+item_path: /obj/item/clothing/suit/lux_tunic/custom
+}
+{
+ckey: sallyvadordomold
+character_name: Denis Serbin
+item_desc: A bronze heart awarded to members of the SCG for injury or death in the line of duty. Belongs to Denis Serbin.
+item_path: /obj/item/clothing/accessory/medal/solgov/bronze/heart
+}
+{
+ckey: sallyvadordomold
+character_name: Denis Serbin
+item_desc: A gold medal awarded to members of the Defense Forces by the Secretary General for personal acts of valor and heroism above and beyond the call of duty. Belongs to Denis Serbin.
+item_path: /obj/item/clothing/accessory/medal/solgov/gold/crest
+}
 #	MEDIUM ITEMS HERE (5-6)
 
 {
@@ -583,7 +627,7 @@ item_path: /obj/item/modular_computer/pda/wrist/grayson
 {
 ckey: courierr
 character_name: Mia Lee
-item_path: /obj/item/weapon/material/kitchen/utensil/knife/boot
+item_path: /obj/item/weapon/material/knife
 item_name: karambit
 item_desc: A small knife with a curved blade.
 item_icon: karambit
@@ -654,7 +698,7 @@ item_icon: talisman-5
 {
 ckey: furrydog
 character_name: Mathor Ajurth Enai-Kaytam
-item_path: /obj/item/clothing/ring/seal/mason
+item_path: /obj/item/clothing/ring
 item_name: rainbow bracelet
 item_desc: It's a rainbow bracelet. Looks pretty good and stylish, special for gays.
 item_icon: rainbow_bracelet
@@ -662,7 +706,7 @@ item_icon: rainbow_bracelet
 {
 ckey: thehero13
 character_name: Jonn Corsac
-item_path: /obj/item/weapon/material/kitchen/utensil/knife/boot
+item_path: /obj/item/weapon/material/knife
 item_name: karambit
 item_desc: A small curved knife.
 item_icon: karambit2
@@ -683,15 +727,3 @@ item_desc: This is an old and shabby beret of a veteran of one of the many wars 
 }
 
 #	LONG ITEMS HERE (+7)
-
-{
-ckey: arhod
-character_name: Jason Marhod
-item_path: /obj/item/clothing/accessory/medal/solgov/silver/sword
-item_desc: A silver medal awarded to members of the SCG for honorable service while under enemy fire. No: 48181
-req_titles: Warden
-req_access: "ACCESS_BRIG"
-paper_info: [center]Öåíòðàëüíîå Ïðàâèòåëüñòâî Ñîëíå÷íîé Ñèñòåìû[/center][solcrest][br]Äàííûì ñåðòèôèêàòîì ïîäòâåðæäàåòñÿ íàãðàæäåíèå Äæåéñîíà Ìàðõîäà ìåäàëüþ "Ó÷àñòíèê Áîåâûõ Äåéñòâèè" çà íåéòðàëèçàöèþ ïðîòèâíèêà â îïàñíûõ óñëîâèÿõ.[br]Ïîäïèñü: [sign]Oliver Stocker[/sign]
-paper_title: award certificate
-paper_stamp_type: /obj/item/weapon/stamp/solgov
-}

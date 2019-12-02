@@ -63,20 +63,6 @@
 	body_parts_covered = UPPER_TORSO|ARMS
 	allowed = list(/obj/item/device/flashlight,/obj/item/device/lightreplacer,/obj/item/weapon/storage/bag/trash,/obj/item/weapon/grenade/chem_grenade/cleaner,/obj/item/weapon/reagent_containers/spray/cleaner, /obj/item/weapon/mop, /obj/item/weapon/reagent_containers/glass/bucket)
 
-/obj/item/clothing/suit/storage/toggle/labcoat/xyn_machine
-	name = "\improper Xynergy labcoat"
-	desc = "A grey suit that protects against minor chemical spills. It covered in blue and purple stripes and trims, denoting it as Xynergy labcoat"
-	icon = 'infinity/icons/obj/clothing/obj_suit.dmi'
-	item_icons = list(slot_wear_suit_str = 'infinity/icons/mob/onmob/onmob_suit.dmi')
-	icon_state = "labcoat_xy"
-	icon_open = "labcoat_xy_open"
-	icon_closed = "labcoat_xy"
-	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 20, rad = 0)
-	species_restricted = null
-	sprite_sheets = list(
-		SPECIES_IPC = 'icons/mob/onmob/onmob_suit.dmi',
-		)
-
 /obj/item/clothing/suit/storage/tgbomber/militaryjacket
 	name = "military jacket"
 	desc = "A canvas jacket styled classical American military garb. Feels sturdy, yet comfortable."
@@ -92,3 +78,14 @@
 /obj/item/clothing/suit/armor/pcarrier/mainkraft/plastic/New()
 	..()
 	slowdown_per_slot[slot_wear_suit] = 0.75
+
+/obj/item/clothing/suit/lux_tunic
+	name = "luxury tunic"
+	desc = "A luxury suit for some high-ranked officer."
+	icon = 'infinity/icons/obj/clothing/obj_suit.dmi'
+	item_icons = list(slot_wear_suit_str = 'infinity/icons/mob/onmob/onmob_suit.dmi')
+	icon_state = "admiral_tunic"
+	item_state = "admiral_tunic"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL)
+	allowed = list(/obj/item/weapon/gun/energy, /obj/item/weapon/gun/projectile, /obj/item/weapon/melee/baton)
