@@ -1,6 +1,7 @@
 /obj/structure/bed/chair/e_chair
 	name = "electric chair"
 	desc = "Looks absolutely SHOCKING!"
+	icon = 'icons/obj/objects.dmi'
 	icon_state = "echair0"
 	var/on = 0
 	var/obj/item/assembly/shock_kit/part = null
