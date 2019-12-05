@@ -6,12 +6,18 @@
 ######################################################################
 
 # not_a_user - Admin
-Rv666 - Host
 Straet - HeadAdmin
-jediofgood - GameAdmin
-Bumer5117 - TrialAdmin
-zigamus - GameAdmin
-erementhompage - GameAdmin
-dakapapreta - HeadAdmin
-azizonkg - GameAdmin
+erementhompage - HeadAdmin
+azizonkg - HeadAdmin
 Buharin - HeadAdmin
+Ezhlk - HeadAdmin
+RaMMfani - HeadAdmin
+SprSaf - HeadAdmin
+Kalin1n - HeadAdmin
+Terkator - HeadAdmin
+
+# Rv666 - Host
+# jediofgood - GameAdmin
+# Bumer5117 - TrialAdmin
+# zigamus - GameAdmin
+# dakapapreta - HeadAdmin
