@@ -98,11 +98,3 @@
 	cost = 15
 	containertype = /obj/structure/closet/crate/large
 	containername = "office supplies crate"
-
-/decl/hierarchy/supply_pack/supply/moneycash
-	name = "Money Cash"
-	contains = list(/obj/item/weapon/spacecash/bundle/c1000 = 10)
-	cost = 175
-	containertype = /obj/structure/closet/crate/secure
-	containername = "Money case"
-	access = access_heads
